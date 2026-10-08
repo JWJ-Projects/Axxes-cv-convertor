@@ -1,8 +1,7 @@
-import pandas as pd
 from gliner2 import AutoExtractor
 
 model = AutoExtractor.from_pretrained("fastino/GLiNER2.5-Decide")
-out = model.classify_text(
+scope_test = model.classify_text(
 """I am a highly energetic and passionate Fullstack Developer, dedicated to delivering 
 clean, maintainable, and scalable solutions. I thrive on immersing myself in new business 
 contexts and domains, translating this understanding into software that delivers real 
@@ -14,4 +13,3 @@ Serverless architectures""",
         "personality", "skills", "projects"
     ]},
 )
-print(out)
