@@ -14,7 +14,7 @@ def read_pdf_drawings(filePath):
     drawings = page.get_drawings()
     return drawings
 
-filePath = "assets/Axxes_CV.pdf"
+filePath = "assets/original_cvs/Joppe_Iemants_CV.pdf"
 pdf_text = read_pdf_text(filePath)
 pdf_drawings = read_pdf_drawings(filePath)
 print(pdf_drawings)

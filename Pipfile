@@ -6,8 +6,6 @@ name = "pypi"
 [packages]
 torch = "*"
 torchvision = "*"
-transformers = "*"
-pillow = "*"
 matplotlib = "*"
 einops = "*"
 addict = "*"
@@ -17,7 +15,12 @@ pandas = "*"
 numpy = "*"
 gliner2 = "*"
 peft = "*"
+transformers = "*"
+accelerate = "*"
+bitsandbytes = "*"
 pymupdf = "*"
+pillow = "*"
+pydantic = "*"
 
 [dev-packages]
 
