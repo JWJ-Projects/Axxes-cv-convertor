@@ -12,12 +12,12 @@ matplotlib = "*"
 einops = "*"
 addict = "*"
 easydict = "*"
-pymupdf = "*"
 psutil = "*"
 pandas = "*"
 numpy = "*"
 gliner2 = "*"
 peft = "*"
+pymupdf = "*"
 
 [dev-packages]
 
