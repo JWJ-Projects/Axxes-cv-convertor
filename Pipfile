@@ -16,6 +16,8 @@ pymupdf = "*"
 psutil = "*"
 pandas = "*"
 numpy = "*"
+gliner2 = "*"
+peft = "*"
 
 [dev-packages]
 
