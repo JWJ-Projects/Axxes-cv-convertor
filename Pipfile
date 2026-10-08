@@ -1,0 +1,23 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+torch = "*"
+torchvision = "*"
+transformers = "*"
+pillow = "*"
+matplotlib = "*"
+einops = "*"
+addict = "*"
+easydict = "*"
+pymupdf = "*"
+psutil = "*"
+pandas = "*"
+numpy = "*"
+
+[dev-packages]
+
+[requires]
+python_version = "3.12"
