@@ -47,10 +47,7 @@ def load_model():
 def extract_cv(processor, model, images):
     print("Rendering PDF...")
 
-    content = [
-        {"type": "image", "image": image}
-        for image in images
-    ]
+    content = [ {"type": "image", "image": image} for image in images]
 
     content.append({
         "type": "text",
