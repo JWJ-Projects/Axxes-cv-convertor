@@ -13,14 +13,17 @@ BASE_DIR = Path(__file__).resolve().parent
 MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
 INPUT_PDF = "Joppe_Iemants_CV.pdf"
 
-PDF_PATH = BASE_DIR / "assets/original_cvs" / INPUT_PDF
-OUTPUT_PATH = BASE_DIR / "raw_cv.json"
-RAW_RESPONSE_PATH = BASE_DIR / "raw_response.txt"
+PDF_PATH = BASE_DIR / "assets" / "original_cvs" / INPUT_PDF
+OUTPUT_BASE = BASE_DIR / "outputs"
+OUTPUT_PATH = OUTPUT_BASE / "raw_cv.json"
+RAW_RESPONSE_PATH = OUTPUT_BASE / "raw_response.txt"
 
 PDF_DPI = 120
 MAX_NEW_TOKENS = 4096
 
 def load_model():
+    print("Loading Qwen3-VL...")
+
     quantization = BitsAndBytesConfig(
         load_in_4bit=True,
         bnb_4bit_quant_type="nf4",
@@ -42,6 +45,8 @@ def load_model():
     return processor, model
 
 def extract_cv(processor, model, images):
+    print("Rendering PDF...")
+
     content = [
         {"type": "image", "image": image}
         for image in images
@@ -109,11 +114,8 @@ def extract_cv(processor, model, images):
     )[0]
 
 def main():
-    print("Rendering PDF...")
     images = render_pdf(PDF_PATH, PDF_DPI)
-    print(f"Rendered {len(images)} page(s)")
 
-    print("Loading Qwen3-VL...")
     processor, model = load_model()
 
     response = extract_cv(processor, model, images)
