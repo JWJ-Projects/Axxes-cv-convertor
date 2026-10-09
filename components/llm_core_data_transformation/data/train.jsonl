@@ -1,0 +1,3 @@
+{"input":"I've done a few pytest exercises and know the main concepts. No proper project exp with it yet.","output":{"classifications":[{"task":"proficiency","labels":["Junior","Confirmed","Advanced", "Expert"],"true_label":["Junior"]}]}}
+{"input":"I can explain the beginner bits of dbt, at least, but haven't had to build or maintain anything with it.","output":{"classifications":[{"task":"proficiency","labels":["Junior","Confirmed","Advanced", "Expert"],"true_label":["Junior"]}]}}
+{"input":"Generally, I'm still at tutorial level with FastAPI; the concepts click, but I've never put them into a finished project.","output":{"classifications":[{"task":"proficiency","labels":["Junior","Confirmed","Advanced", "Expert"],"true_label":["Junior"]}]}}
