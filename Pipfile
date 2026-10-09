@@ -15,12 +15,12 @@ pandas = "*"
 numpy = "*"
 gliner2 = "*"
 peft = "*"
+pydantic = "*"
 transformers = "*"
 accelerate = "*"
 bitsandbytes = "*"
-pymupdf = "*"
 pillow = "*"
-pydantic = "*"
+pymupdf = "*"
 
 [dev-packages]
 
