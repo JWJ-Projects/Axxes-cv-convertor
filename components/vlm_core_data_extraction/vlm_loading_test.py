@@ -1,10 +1,5 @@
 import torch
-
-from transformers import (
-    AutoProcessor,
-    BitsAndBytesConfig,
-    Qwen3VLForConditionalGeneration
-)
+from transformers import AutoProcessor, BitsAndBytesConfig, Qwen3VLForConditionalGeneration
 
 MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
 
@@ -15,14 +10,17 @@ quantization_config = BitsAndBytesConfig(
     bnb_4bit_use_double_quant=True
 )
 
+print("Loading processor...")
 processor = AutoProcessor.from_pretrained(MODEL_ID)
 
+print("Loading Qwen3-VL-8B-Instruct...")
 model = Qwen3VLForConditionalGeneration.from_pretrained(
     MODEL_ID,
     quantization_config=quantization_config,
     device_map="auto",
-    torch_dtype=torch.float16,
+    dtype=torch.float16,
     attn_implementation="sdpa"
 )
 
 print("Model loaded successfully!")
+print(model.device)
