@@ -16,17 +16,17 @@ def df_to_json(df: pd.DataFrame, json_path: str = "./data/train.jsonl") -> str:
                 }]
             }
         }
-        json_objects.append(json_object)
-    with open(json_path) as json_file:
+        json_objects.append(json.dumps(json_object) + '\n')
+    with open(json_path, 'w') as json_file:
         json_file.writelines(json_objects)
     return json_path
 
 def main():
-        
+    df_train = pd.read_csv("./data/developer_proficiency_descriptions.csv")
+    json_path = df_to_json(df_train)
     model = AutoExtractor.from_pretrained(
         "fastino/GLiNER2.5-Decide"
     )
-
     config = TrainingConfig(
         output_dir="./decide_finetuned",
         num_epochs=3,
@@ -37,7 +37,7 @@ def main():
 
     trainer = ExtractorTrainer(model, config)
 
-    trainer.train(train_data="./data/train.jsonl")
+    trainer.train(train_data=json_path)
     return
 if __name__ == '__main__':
     main()
