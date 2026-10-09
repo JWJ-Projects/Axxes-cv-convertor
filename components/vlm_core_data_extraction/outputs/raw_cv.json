@@ -1,0 +1,196 @@
+{
+  "personal_information": {
+    "name": "JOPPE IEMANTS",
+    "current_occupation": "Applied Computer Science Student | Artificial Intelligence",
+    "city": "Bruges",
+    "country": "Belgium",
+    "date_of_birth": null,
+    "email": "joppe.iemants@gmail.com",
+    "phone": "+32 494 64 95 48",
+    "introduction": "Applied Computer Science student specializing in Artificial Intelligence at Howest, with practical experience in machine learning, cloud computing and software development. Interested in applying AI to real-world technological solutions."
+  },
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "C#",
+      "category": "Programming",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Java",
+      "category": "Programming",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "SQL",
+      "category": "Programming",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Deep Learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Reinforcement learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Azure Machine Learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Docker",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Git & GitHub",
+      "category": "Other",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Databases",
+      "category": "Other",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "Dutch - Native",
+      "category": "Other",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "English - Professional",
+      "category": "Other",
+      "proficiency": null,
+      "source_pages": []
+    },
+    {
+      "name": "French - Basic",
+      "category": "Other",
+      "proficiency": null,
+      "source_pages": []
+    }
+  ],
+  "projects": [
+    {
+      "title": "Deep Learning Stock Prediction Project",
+      "company": "Howest, Belgium",
+      "role": null,
+      "start_date": "2026",
+      "end_date": null,
+      "description": "Developed a deep learning model to predict next-day stock price movement using financial data and news sentiment features. Currently working in a team to deploy and manage the model using Azure Machine Learning.",
+      "tasks": [],
+      "skills": [],
+      "source_pages": [
+        1
+      ]
+    },
+    {
+      "title": "Face Recognition Application",
+      "company": null,
+      "role": null,
+      "start_date": "2026",
+      "end_date": null,
+      "description": "Developed a local computer vision application using camera input to detect objects, recognize a registered face and interact with the Spotify API.",
+      "tasks": [],
+      "skills": [],
+      "source_pages": [
+        1
+      ]
+    },
+    {
+      "title": "RUN-EU Drones Programme",
+      "company": "Universidad de Burgos, Spain",
+      "role": null,
+      "start_date": "2025",
+      "end_date": null,
+      "description": "Participated in an international programme focused on drone mission planning, photogrammetry and data collection.",
+      "tasks": [],
+      "skills": [],
+      "source_pages": [
+        1
+      ]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Howest University of Applied Sciences",
+      "degree": "Bachelor of Applied Computer Science – Artificial Intelligence",
+      "field_of_study": "Artificial Intelligence",
+      "start_date": "2024",
+      "end_date": "Present",
+      "description": "Relevant coursework: machine learning, deep learning, MLOps, software development, databases and cloud computing.",
+      "source_pages": [
+        1
+      ]
+    },
+    {
+      "institution": "GO! Atheneum Oudenaarde",
+      "degree": "Secondary Education – Applied Computer Science",
+      "field_of_study": "Applied Computer Science",
+      "start_date": "2022",
+      "end_date": "2024",
+      "description": "Built a foundation in programming, software development and IT concepts in preparation for further studies in computer science.",
+      "source_pages": [
+        1
+      ]
+    }
+  ],
+  "certificates": [],
+  "languages": [
+    {
+      "name": "Dutch",
+      "understanding": null,
+      "speaking": "Native",
+      "writing": null,
+      "overall_level": "Native"
+    },
+    {
+      "name": "English",
+      "understanding": null,
+      "speaking": "Professional",
+      "writing": null,
+      "overall_level": "Professional"
+    },
+    {
+      "name": "French",
+      "understanding": null,
+      "speaking": "Basic",
+      "writing": null,
+      "overall_level": "Basic"
+    }
+  ],
+  "trainings": [],
+  "weblinks": [],
+  "additional_information": []
+}
