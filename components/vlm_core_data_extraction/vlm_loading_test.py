@@ -17,10 +17,13 @@ print("Loading Qwen3-VL-8B-Instruct...")
 model = Qwen3VLForConditionalGeneration.from_pretrained(
     MODEL_ID,
     quantization_config=quantization_config,
-    device_map="auto",
+    device_map={"": 0},
     dtype=torch.float16,
     attn_implementation="sdpa"
 )
-
+print(
+    f"Allocated VRAM: "
+    f"{torch.cuda.memory_allocated() / 1024**3:.2f} GiB"
+)
 print("Model loaded successfully!")
 print(model.device)
