@@ -4,14 +4,10 @@ from pathlib import Path
 
 import torch
 from pydantic import ValidationError
-from transformers import (
-    AutoProcessor,
-    BitsAndBytesConfig,
-    Qwen3VLForConditionalGeneration,
-)
+from transformers import AutoProcessor, BitsAndBytesConfig, Qwen3VLForConditionalGeneration
 
-from schemas import RawCV
 from helpers import render_pdf, validate_response
+from prompts import build_prompt
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
@@ -44,59 +40,6 @@ def load_model():
 
     model.eval()
     return processor, model
-
-
-def build_prompt() -> str:
-    schema = RawCV.model_json_schema()
-
-    EXTRACTION_RULES = """
-    Additional extraction rules:
-
-    - Extract project titles separately from company names.
-    - Never interpret a date as a company name.
-    - Preserve education descriptions and coursework.
-    - Extract phone numbers and email addresses as contact details,
-      not as weblinks.
-    - Preserve original skill category headings when present.
-    - If a skill entry is a spoken language, put it in languages
-      rather than technical skills.
-    - If a language has only one general proficiency rating,
-      store it in overall_level. Do not assume it applies
-      exclusively to speaking, writing or understanding.
-    - Preserve original text without adding professional claims.
-    - Do not invent missing information to complete the schema.
-    - Identify the boundaries between separate CV entries.
-    - Distinguish project titles, job titles, organizations and dates.
-    - If a project has no explicitly named company, set company to null.
-    - Do not infer skills or tasks from a project description.
-    - Preserve exact names and titles as written in the document.
-    - Do not summarize or paraphrase descriptions.
-    """
-
-    return (
-        "You are an information extraction system.\n"
-        "Extract all available candidate information from "
-        "the provided CV pages.\n\n"
-        "Rules:\n"
-        "1. Extract only information present in the CV.\n"
-        "2. Do not invent or infer missing details.\n"
-        "3. Preserve original descriptions and tasks.\n"
-        "4. Use null for missing optional values.\n"
-        "5. Use empty arrays for missing sections.\n"
-        "6. Keep languages separate from technical skills.\n"
-        "7. Associate skills and tasks with their correct projects.\n"
-        "8. Preserve original proficiency indicators.\n"
-        "9. Page numbers are 1-based.\n"
-        "10. Return only a valid JSON object.\n\n"
-
-        f"{EXTRACTION_RULES}\n\n"
-
-        "The JSON must conform to this schema:\n"
-        f"{json.dumps(schema, ensure_ascii=False)}"
-    )
-
-
-
 
 def extract_cv(processor, model, images):
     content = [
