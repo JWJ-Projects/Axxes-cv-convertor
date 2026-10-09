@@ -3,6 +3,7 @@ from gliner2.training.data import InputExample
 from gliner2.training.trainer import ExtractorTrainer, ExtractorDataset, TrainingConfig
 import pandas as pd
 import json
+import torch
 def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", json_val_path: str = "./data/val.jsonl") -> str:
     json_objects = []
     for i, row in df.iterrows():
@@ -12,7 +13,7 @@ def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", js
                 "classifications": [{
                     "task": "proficiency",
                     "labels": ["Junior","Confirmed","Advanced", "Expert"],
-                    "true_label": "Junior"
+                    "true_label": [row["proficiency"]]
                 }]
             }
         }
@@ -26,6 +27,7 @@ def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", js
     return json_train_path, json_val_path
 
 def main():
+    print(torch.cuda.is_available())
     df_train = pd.read_csv("./data/developer_proficiency_descriptions.csv")
     json_train_path, json_val_path = df_to_json(df_train)
     model = AutoExtractor.from_pretrained(
@@ -33,8 +35,9 @@ def main():
     )
     config = TrainingConfig(
         output_dir="./decide_proficiency_finetuned_stage1",
-        num_epochs=100,
+        num_epochs=10,
         batch_size=16,
+        eval_batch_size=16,
         encoder_lr=1e-5,
         task_lr=1e-4,
         use_lora=True,
@@ -42,11 +45,11 @@ def main():
         lora_r=32,
         lora_dropout=0,
         early_stopping = True,
-        early_stopping_patience = 5
+        early_stopping_patience = 5,
+        num_workers=0
     )
 
     trainer = ExtractorTrainer(model, config)
-
     trainer.train(train_data=json_train_path, eval_data=json_val_path)
     return
 if __name__ == '__main__':
