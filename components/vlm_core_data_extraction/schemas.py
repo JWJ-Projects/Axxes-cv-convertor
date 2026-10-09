@@ -8,6 +8,8 @@ class PersonalInformation(BaseModel):
     city: str | None = None
     country: str | None = None
     date_of_birth: str | None = None
+    email: str | None = None
+    phone: str | None = None
     introduction: str | None = None
 
 
@@ -28,10 +30,12 @@ class Proficiency(BaseModel):
 
 class Skill(BaseModel):
     name: str
+    category: str | None = None
     proficiency: Proficiency | None = None
     source_pages: list[int] = Field(default_factory=list)
 
 class Project(BaseModel):
+    title: str | None = None
     company: str | None = None
     role: str | None = None
     start_date: str | None = None
@@ -40,7 +44,6 @@ class Project(BaseModel):
 
     tasks: list[str] = Field(default_factory=list)
     skills: list[str] = Field(default_factory=list)
-
     source_pages: list[int] = Field(default_factory=list)
 
 class Education(BaseModel):
@@ -49,7 +52,7 @@ class Education(BaseModel):
     field_of_study: str | None = None
     start_date: str | None = None
     end_date: str | None = None
-
+    description: str | None = None
     source_pages: list[int] = Field(default_factory=list)
 
 class Certificate(BaseModel):
