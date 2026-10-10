@@ -1,0 +1,801 @@
+description,language/framework/tool,proficiency
+"To be fair, I'm just picking up D3.js. I'd need a lot of help before I could contribute to a real codebase.",D3.js,Junior
+"Realistically, I've contributed fixes and design feedback to the NestJS ecosystem, and I set the standards our company follows for structured Node APIs.",NestJS,Expert
+"I've built and rescued MySQL systems of every size, including mission-critical relational databases. Teams across the company rely on my judgement. I enjoy passing that knowledge on.",MySQL,Expert
+"I train and mentor engineers on Julia. When something around numerical simulations fails in ways nobody else understands, I'm usually the one called in.",Julia,Expert
+"Realistically, I'm recognised internally as the authority on pytest. I lead design reviews for Python test suites and run workshops on the deep details. People trust my call on the tricky decisions.",pytest,Expert
+"Honestly, I've watched a few Hibernate videos and followed along with some Java persistence layers samples. Nothing production-grade yet.",Hibernate,Junior
+I can work independently on well-defined Git tasks. Architecture and trickier branching workflows problems still go to someone more experienced.,Git,Confirmed
+dbt is one of my strongest tools. I've optimised SQL data transformations in production and can justify the tradeoffs I chose. I rarely get stuck for long.,dbt,Advanced
+"Realistically, I've just begun experimenting with PyTorch in my spare time. I can't yet tell good practice from bad when it comes to deep learning models. Still very early days.",PyTorch,Junior
+"Overall, I've worked with Spring Boot on two or three projects. Standard work on Java microservices doesn't worry me, and my reviews rarely turn up big problems.",Spring Boot,Confirmed
+I've shipped a few features with PostgreSQL in a team setting. I still need occasional guidance on design decisions.,PostgreSQL,Confirmed
+"At the moment, I can build and maintain simple classical ML models in scikit-learn by myself. When requirements get complicated, I like to talk it through with a lead first.",scikit-learn,Confirmed
+"After many years with Jenkins, I can predict where automated build jobs will break before a line is written, and I've defined our architecture guidelines. I enjoy passing that knowledge on.",Jenkins,Expert
+"At the moment, I've worked with GitLab CI for years and can design build pipelines from scratch. I know the common pitfalls and how to avoid them.",GitLab CI,Advanced
+"Honestly, I'd describe my AWS CDK level as competent but not yet seasoned. I've delivered infrastructure as code for a client, and I'm still gaining confidence with edge cases. I'm keen to grow into more complex work.",AWS CDK,Confirmed
+"I've shaped how our organisation approaches SQL data transformations with dbt, and I regularly review and mentor architects on the most difficult cases. People trust my call on the tricky decisions.",dbt,Expert
+"In short, my knowledge of MongoDB is mostly theoretical; I've tried a handful of document stores samples and that's it. Still very early days.",MongoDB,Junior
+"Godot is part of my day-to-day work now. I'm comfortable with routine 2D game scenes, but I'm still building depth. I'm keen to grow into more complex work.",Godot,Confirmed
+"I've contributed fixes and design feedback to the Svelte ecosystem, and I set the standards our company follows for reactive interfaces.",Svelte,Expert
+"To be fair, I can work independently on well-defined Swift tasks. Architecture and trickier iOS apps problems still go to someone more experienced. Code review helps me improve.",Swift,Confirmed
+I've moved past tutorials with Node.js and contributed to production code for backend services. Debugging obscure issues is still a stretch for me. Code review helps me improve.,Node.js,Confirmed
+"In short, I'm the final escalation point for Symfony. I've redesigned PHP back-office apps for scale, trained dozens of developers and set best practice for the whole department.",Symfony,Expert
+"Overall, I've worked with SQL for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on reporting queries gets done across our products.",SQL,Expert
+"I've spent several years deep in Jenkins. I can untangle legacy automated build jobs, plan a migration and deliver it without supervision.",Jenkins,Advanced
+"To be fair, my Spring Boot skills are solid for everyday work. I handle Java microservices reliably, though I wouldn't call myself deeply experienced. I'm still learning the deeper parts.",Spring Boot,Confirmed
+"To be fair, I've shaped how our organisation approaches containerized builds with Docker, and I regularly review and mentor architects on the most difficult cases. People trust my call on the tricky decisions.",Docker,Expert
+"At the moment, I've worked with RabbitMQ for years and can design message queues from scratch. I know the common pitfalls and how to avoid them. I've seen most of the usual failure modes.",RabbitMQ,Advanced
+"I'm very comfortable owning Pandas work end to end, from design to deployment. Problems around tabular data wrangling that stump others are usually manageable for me. I'm happy to help teammates when they ask.",Pandas,Advanced
+"Honestly, I built one small Swift demo for iOS apps by following a guide. That's the extent of my experience. I lean on the docs constantly.",Swift,Junior
+"With Entity Framework Core I can take an ambiguous .NET data access problem, pick a sound approach and see it through to production by myself.",Entity Framework Core,Advanced
+"To be fair, I'm comfortable enough with Jest to deliver JavaScript tests on my own; for performance tuning or unusual setups I ask for a second opinion. I'm keen to grow into more complex work.",Jest,Confirmed
+"Realistically, I can build and maintain simple database-backed web apps in Django by myself. When requirements get complicated, I like to talk it through with a lead first. I'm keen to grow into more complex work.",Django,Confirmed
+New to Dart here. I get stuck quickly when an example for cross-platform apps differs from what the tutorial showed. I'm keen to learn more.,Dart,Junior
+"In short, I've shaped how our organisation approaches serverless endpoints with Azure Functions, and I regularly review and mentor architects on the most difficult cases.",Azure Functions,Expert
+"Honestly, I can work independently on well-defined Google Cloud Run tasks. Architecture and trickier containerized services problems still go to someone more experienced.",Google Cloud Run,Confirmed
+"I've spent several years deep in Docker. I can untangle legacy containerized builds, plan a migration and deliver it without supervision.",Docker,Advanced
+"Honestly, I train and mentor engineers on MySQL. When something around relational databases fails in ways nobody else understands, I'm usually the one called in.",MySQL,Expert
+I've moved past tutorials with Next.js and contributed to production code for server-rendered web apps. Debugging obscure issues is still a stretch for me. Code review helps me improve.,Next.js,Confirmed
+"To be fair, my first production work with Unity was on real-time 3D prototypes. It went fine, and I'm now picking up similar tasks with only light supervision. I'm keen to grow into more complex work.",Unity,Confirmed
+"With SQLite I can take an ambiguous local data storage problem, pick a sound approach and see it through to production by myself. I'm happy to help teammates when they ask.",SQLite,Advanced
+"After about a year with Airflow, I can pick up a typical ticket involving workflow orchestration and finish it without much supervision.",Airflow,Confirmed
+"I can build and maintain simple Android and backend apps in Kotlin by myself. When requirements get complicated, I like to talk it through with a lead first.",Kotlin,Confirmed
+"Honestly, I've gone well beyond the basics of Nginx: I handle reverse proxy setups, performance problems and production failures independently.",Nginx,Advanced
+"I understand Redis at a level where I can explain why it behaves the way it does, not just how to use it. I advise on caching layers for several teams. I keep the team's standards up to date.",Redis,Expert
+"Overall, my pytest skills are solid for everyday work. I handle Python test suites reliably, though I wouldn't call myself deeply experienced. I'm keen to grow into more complex work.",pytest,Confirmed
+I know Hibernate down to its internals. I've designed Java persistence layers at scale and I'm the go-to person for the hardest problems across the organisation.,Hibernate,Expert
+"When something odd happens with Elasticsearch, people ask me. I've led several large-scale search indexes efforts and I teach the advanced material to newcomers. I enjoy passing that knowledge on.",Elasticsearch,Expert
+"At the moment, I've worked with pytest for years and can design Python test suites from scratch. I know the common pitfalls and how to avoid them. I've seen most of the usual failure modes.",pytest,Advanced
+"In short, I've worked with Tailwind CSS on two or three projects. Standard work on utility-first styling doesn't worry me, and my reviews rarely turn up big problems.",Tailwind CSS,Confirmed
+"My TensorFlow skills are solid for everyday work. I handle machine learning pipelines reliably, though I wouldn't call myself deeply experienced. I'm keen to grow into more complex work.",TensorFlow,Confirmed
+Julia is one of my strongest tools. I've optimised numerical simulations in production and can justify the tradeoffs I chose.,Julia,Advanced
+"After about a year with PostgreSQL, I can pick up a typical ticket involving relational schemas and finish it without much supervision.",PostgreSQL,Confirmed
+"To be fair, I can read simple Laravel code and tweak examples, but I've never shipped anything with it. I'm keen to learn more.",Laravel,Junior
+I've got a decent grasp of PyTorch from a real project. I handle the usual deep learning models tasks and learn something new from each code review. I'm keen to grow into more complex work.,PyTorch,Confirmed
+"On my current team I take on regular Bootstrap work involving responsive pages. I'm trusted with normal tickets, though big design choices are made by others. I'm still learning the deeper parts.",Bootstrap,Confirmed
+"Realistically, I'm recognised internally as the authority on PowerShell. I lead design reviews for Windows automation scripts and run workshops on the deep details.",PowerShell,Expert
+"I'd describe my SQLite level as competent but not yet seasoned. I've delivered local data storage for a client, and I'm still gaining confidence with edge cases.",SQLite,Confirmed
+"Honestly, I've gone well beyond the basics of Sass: I handle stylesheet architecture, performance problems and production failures independently.",Sass,Advanced
+"When something odd happens with HTML, people ask me. I've led several large-scale semantic page markup efforts and I teach the advanced material to newcomers. I enjoy passing that knowledge on.",HTML,Expert
+"PowerShell came up in a university module, so I've seen work on Windows automation scripts but never done it for real. Still very early days.",PowerShell,Junior
+Azure Functions is still new to me. I understand the basic ideas behind serverless endpoints but need step-by-step instructions to get anywhere. Still very early days.,Azure Functions,Junior
+New to R here. I get stuck quickly when an example for statistical analysis differs from what the tutorial showed. Still very early days.,R,Junior
+"Over several large projects with Jetpack Compose I've led the design of Android UI screens. I rarely need outside help, even when requirements are messy.",Jetpack Compose,Advanced
+"So far I've only used Jetpack Compose in a bootcamp setting. Toy examples for Android UI screens work, but a real project feels out of reach.",Jetpack Compose,Junior
+I've watched a few FastAPI videos and followed along with some Python APIs samples. Nothing production-grade yet. I'm keen to learn more.,FastAPI,Junior
+"To be fair, I've just begun experimenting with ASP.NET Core in my spare time. I can't yet tell good practice from bad when it comes to web backends.",ASP.NET Core,Junior
+"In short, I've only just started with Entity Framework Core. I can follow a tutorial on .NET data access, but I haven't built anything real yet.",Entity Framework Core,Junior
+I can diagnose difficult HTML problems quickly and review other people's semantic page markup with confidence.,HTML,Advanced
+"Realistically, I've worked with Django for years and can design database-backed web apps from scratch. I know the common pitfalls and how to avoid them. I've seen most of the usual failure modes.",Django,Advanced
+"At the moment, I regularly take on the complex WebAssembly work on my team, including browser-side modules, and make technical decisions without needing sign-off. I've seen most of the usual failure modes.",WebAssembly,Advanced
+"Overall, I've gone well beyond the basics of Dart: I handle cross-platform apps, performance problems and production failures independently. I rarely get stuck for long.",Dart,Advanced
+"After many years with Vite, I can predict where front-end tooling will break before a line is written, and I've defined our architecture guidelines.",Vite,Expert
+"My Google Cloud Run work covers architecture, tuning and troubleshooting for containerized services. I make the calls and take responsibility for the outcome.",Google Cloud Run,Advanced
+"Overall, I've just begun experimenting with Terraform in my spare time. I can't yet tell good practice from bad when it comes to cloud infrastructure. Still very early days.",Terraform,Junior
+"At the moment, I've worked with Bash for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on shell scripting gets done across our products.",Bash,Expert
+"At the moment, I know MongoDB down to its internals. I've designed document stores at scale and I'm the go-to person for the hardest problems across the organisation. I enjoy passing that knowledge on.",MongoDB,Expert
+"After many years with Tailwind CSS, I can predict where utility-first styling will break before a line is written, and I've defined our architecture guidelines. People trust my call on the tricky decisions.",Tailwind CSS,Expert
+"To be fair, I'm very comfortable owning Sass work end to end, from design to deployment. Problems around stylesheet architecture that stump others are usually manageable for me.",Sass,Advanced
+I've used Java on a real project for enterprise services and can handle standard tasks myself. For anything unusual I check with a senior colleague.,Java,Confirmed
+"At the moment, I'm comfortable enough with FastAPI to deliver Python APIs on my own; for performance tuning or unusual setups I ask for a second opinion. Code review helps me improve.",FastAPI,Confirmed
+I'm comfortable enough with Hibernate to deliver Java persistence layers on my own; for performance tuning or unusual setups I ask for a second opinion. Code review helps me improve.,Hibernate,Confirmed
+I can diagnose difficult Nuxt problems quickly and review other people's Vue-based sites with confidence. I rarely get stuck for long.,Nuxt,Advanced
+"Over several large projects with Express I've led the design of small web APIs. I rarely need outside help, even when requirements are messy.",Express,Advanced
+I'm recognised internally as the authority on Laravel. I lead design reviews for PHP applications and run workshops on the deep details. I keep the team's standards up to date.,Laravel,Expert
+"So far I've only used GitHub Actions in a bootcamp setting. Toy examples for CI workflows work, but a real project feels out of reach.",GitHub Actions,Junior
+"After about a year with Terraform, I can pick up a typical ticket involving cloud infrastructure and finish it without much supervision. Code review helps me improve.",Terraform,Confirmed
+"I've contributed fixes and design feedback to the Scala ecosystem, and I set the standards our company follows for functional backend services.",Scala,Expert
+"At the moment, I've just begun experimenting with Terraform in my spare time. I can't yet tell good practice from bad when it comes to cloud infrastructure. Still very early days.",Terraform,Junior
+"To be fair, I've worked with Nginx for years and can design reverse proxy setups from scratch. I know the common pitfalls and how to avoid them. I rarely get stuck for long.",Nginx,Advanced
+"Over several large projects with Kotlin I've led the design of Android and backend apps. I rarely need outside help, even when requirements are messy.",Kotlin,Advanced
+"I've spent several years deep in Cypress. I can untangle legacy browser test automation, plan a migration and deliver it without supervision. I've seen most of the usual failure modes.",Cypress,Advanced
+"Honestly, I've spoken publicly about Express and written internal guides on small web APIs. The hardest cases in our company end up on my desk. I enjoy passing that knowledge on.",Express,Expert
+I'm comfortable enough with SQL to deliver reporting queries on my own; for performance tuning or unusual setups I ask for a second opinion.,SQL,Confirmed
+"Over several large projects with Angular I've led the design of enterprise front ends. I rarely need outside help, even when requirements are messy.",Angular,Advanced
+I've moved past tutorials with Jetpack Compose and contributed to production code for Android UI screens. Debugging obscure issues is still a stretch for me. I'm keen to grow into more complex work.,Jetpack Compose,Confirmed
+"In short, I've only just started with Node.js. I can follow a tutorial on backend services, but I haven't built anything real yet. I lean on the docs constantly.",Node.js,Junior
+"Honestly, I've built and rescued TypeScript systems of every size, including mission-critical typed front-end code. Teams across the company rely on my judgement.",TypeScript,Expert
+"Honestly, I'd describe my Playwright level as competent but not yet seasoned. I've delivered end-to-end browser tests for a client, and I'm still gaining confidence with edge cases.",Playwright,Confirmed
+I've worked with Supabase for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on hosted Postgres backends gets done across our products. I enjoy passing that knowledge on.,Supabase,Expert
+I often review Laravel changes from teammates and own the technical design of PHP applications in my projects. I've seen most of the usual failure modes.,Laravel,Advanced
+"With Playwright I can take an ambiguous end-to-end browser tests problem, pick a sound approach and see it through to production by myself.",Playwright,Advanced
+"I recognise the core Godot terminology and can run examples, though I've never been responsible for 2D game scenes in a live project. I lean on the docs constantly.",Godot,Junior
+"To be fair, my Kubernetes experience is limited to a course and a couple of practice exercises around cluster deployments.",Kubernetes,Junior
+"To be fair, I train and mentor engineers on Nginx. When something around reverse proxy setups fails in ways nobody else understands, I'm usually the one called in.",Nginx,Expert
+Right now I'm working through Go exercises on concurrent services. Nobody has reviewed any of my code yet. I lean on the docs constantly.,Go,Junior
+"Symfony came up in a university module, so I've seen work on PHP back-office apps but never done it for real.",Symfony,Junior
+"I've only just started with Azure Functions. I can follow a tutorial on serverless endpoints, but I haven't built anything real yet. Still very early days.",Azure Functions,Junior
+"Overall, I'm very comfortable owning TypeScript work end to end, from design to deployment. Problems around typed front-end code that stump others are usually manageable for me. I rarely get stuck for long.",TypeScript,Advanced
+"At the moment, I've shipped a few features with PHP in a team setting. I still need occasional guidance on design decisions.",PHP,Confirmed
+Right now I'm working through pytest exercises on Python test suites. Nobody has reviewed any of my code yet. I'm keen to learn more.,pytest,Junior
+"I've built and rescued FastAPI systems of every size, including mission-critical Python APIs. Teams across the company rely on my judgement.",FastAPI,Expert
+"My Java expertise goes beyond day-to-day delivery: I audit other teams' enterprise services, define patterns and mentor tech leads on the subtle details.",Java,Expert
+My Spring Boot experience is limited to a course and a couple of practice exercises around Java microservices.,Spring Boot,Junior
+"I've spent several years deep in Vitest. I can untangle legacy JavaScript unit tests, plan a migration and deliver it without supervision. I rarely get stuck for long.",Vitest,Advanced
+"In short, I'm recognised internally as the authority on Spring Boot. I lead design reviews for Java microservices and run workshops on the deep details. People trust my call on the tricky decisions.",Spring Boot,Expert
+"Honestly, I've gone well beyond the basics of ASP.NET Core: I handle web backends, performance problems and production failures independently.",ASP.NET Core,Advanced
+"At the moment, I've worked with Rails for years and can design Ruby web apps from scratch. I know the common pitfalls and how to avoid them.",Rails,Advanced
+"Honestly, I've worked with Angular on two or three projects. Standard work on enterprise front ends doesn't worry me, and my reviews rarely turn up big problems.",Angular,Confirmed
+I've worked with Jetpack Compose for years and can design Android UI screens from scratch. I know the common pitfalls and how to avoid them. I'm happy to help teammates when they ask.,Jetpack Compose,Advanced
+"I understand React at a level where I can explain why it behaves the way it does, not just how to use it. I advise on component-based UIs for several teams.",React,Expert
+"Realistically, I built one small Flutter demo for mobile UI work by following a guide. That's the extent of my experience. I'm keen to learn more.",Flutter,Junior
+"I'm the strongest Jest developer on my project. I can plan, build and debug JavaScript tests without anyone looking over my shoulder. I rarely get stuck for long.",Jest,Advanced
+"At the moment, I can work independently on well-defined Redis tasks. Architecture and trickier caching layers problems still go to someone more experienced. Code review helps me improve.",Redis,Confirmed
+"At the moment, I've worked with Tailwind CSS for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on utility-first styling gets done across our products.",Tailwind CSS,Expert
+I often review Dart changes from teammates and own the technical design of cross-platform apps in my projects. I've seen most of the usual failure modes.,Dart,Advanced
+Right now I'm working through Python exercises on automation and data scripts. Nobody has reviewed any of my code yet.,Python,Junior
+"I've built and rescued Node.js systems of every size, including mission-critical backend services. Teams across the company rely on my judgement. I enjoy passing that knowledge on.",Node.js,Expert
+"Honestly, I train and mentor engineers on Gin. When something around Go HTTP services fails in ways nobody else understands, I'm usually the one called in.",Gin,Expert
+"After many years with Ruby, I can predict where scripting and web tooling will break before a line is written, and I've defined our architecture guidelines.",Ruby,Expert
+"I've spent several years deep in Bootstrap. I can untangle legacy responsive pages, plan a migration and deliver it without supervision.",Bootstrap,Advanced
+I'm recognised internally as the authority on GitLab CI. I lead design reviews for build pipelines and run workshops on the deep details. I keep the team's standards up to date.,GitLab CI,Expert
+"I can build and maintain simple infrastructure as code in AWS CDK by myself. When requirements get complicated, I like to talk it through with a lead first. I'm keen to grow into more complex work.",AWS CDK,Confirmed
+"Honestly, I can build and maintain simple front-end tooling in Vite by myself. When requirements get complicated, I like to talk it through with a lead first. I'm keen to grow into more complex work.",Vite,Confirmed
+Symfony is one of my strongest tools. I've optimised PHP back-office apps in production and can justify the tradeoffs I chose. I've seen most of the usual failure modes.,Symfony,Advanced
+Other senior engineers consult me on pytest. I've shaped long-term strategy for Python test suites and coach people until they can handle it alone. I keep the team's standards up to date.,pytest,Expert
+Other senior engineers consult me on Vite. I've shaped long-term strategy for front-end tooling and coach people until they can handle it alone. I enjoy passing that knowledge on.,Vite,Expert
+I've moved past tutorials with TypeScript and contributed to production code for typed front-end code. Debugging obscure issues is still a stretch for me. I'm keen to grow into more complex work.,TypeScript,Confirmed
+Right now I'm working through Jest exercises on JavaScript tests. Nobody has reviewed any of my code yet.,Jest,Junior
+"Honestly, I've worked with Unreal Engine on two or three projects. Standard work on 3D game levels doesn't worry me, and my reviews rarely turn up big problems.",Unreal Engine,Confirmed
+"At the moment, I've worked with Tailwind CSS for years and can design utility-first styling from scratch. I know the common pitfalls and how to avoid them.",Tailwind CSS,Advanced
+I know FastAPI down to its internals. I've designed Python APIs at scale and I'm the go-to person for the hardest problems across the organisation.,FastAPI,Expert
+"In short, I can build and maintain simple automation and data scripts in Python by myself. When requirements get complicated, I like to talk it through with a lead first.",Python,Confirmed
+"Honestly, my first production work with Bootstrap was on responsive pages. It went fine, and I'm now picking up similar tasks with only light supervision.",Bootstrap,Confirmed
+"My TypeScript work covers architecture, tuning and troubleshooting for typed front-end code. I make the calls and take responsibility for the outcome. I'm happy to help teammates when they ask.",TypeScript,Advanced
+"I train and mentor engineers on R. When something around statistical analysis fails in ways nobody else understands, I'm usually the one called in.",R,Expert
+"Overall, I've got a decent grasp of Entity Framework Core from a real project. I handle the usual .NET data access tasks and learn something new from each code review. I'm keen to grow into more complex work.",Entity Framework Core,Confirmed
+Colleagues bring me their tough Java questions. I've built and maintained several substantial enterprise services setups on my own. I've seen most of the usual failure modes.,Java,Advanced
+"To be fair, I've shaped how our organisation approaches browser test automation with Cypress, and I regularly review and mentor architects on the most difficult cases.",Cypress,Expert
+"So far I've only used Svelte in a bootcamp setting. Toy examples for reactive interfaces work, but a real project feels out of reach.",Svelte,Junior
+"To be fair, I can build and maintain simple JavaScript unit tests in Vitest by myself. When requirements get complicated, I like to talk it through with a lead first. Code review helps me improve.",Vitest,Confirmed
+"I've only just started with WebAssembly. I can follow a tutorial on browser-side modules, but I haven't built anything real yet.",WebAssembly,Junior
+"I'm very comfortable owning PowerShell work end to end, from design to deployment. Problems around Windows automation scripts that stump others are usually manageable for me. I've seen most of the usual failure modes.",PowerShell,Advanced
+"Honestly, I've watched a few Django videos and followed along with some database-backed web apps samples. Nothing production-grade yet. I'm keen to learn more.",Django,Junior
+My knowledge of Angular is mostly theoretical; I've tried a handful of enterprise front ends samples and that's it.,Angular,Junior
+"To be fair, I often review GraphQL changes from teammates and own the technical design of API schemas in my projects.",GraphQL,Advanced
+I've used NestJS on a real project for structured Node APIs and can handle standard tasks myself. For anything unusual I check with a senior colleague. Code review helps me improve.,NestJS,Confirmed
+"In short, I often review React Native changes from teammates and own the technical design of mobile app features in my projects. I'm happy to help teammates when they ask.",React Native,Advanced
+"I'd describe my Rails level as competent but not yet seasoned. I've delivered Ruby web apps for a client, and I'm still gaining confidence with edge cases. Code review helps me improve.",Rails,Confirmed
+I know dbt well enough to choose between approaches for SQL data transformations and explain why. Production incidents rarely catch me off guard. I've seen most of the usual failure modes.,dbt,Advanced
+I can work independently on well-defined MongoDB tasks. Architecture and trickier document stores problems still go to someone more experienced. I'm still learning the deeper parts.,MongoDB,Confirmed
+I'm just picking up Supabase. I'd need a lot of help before I could contribute to a real codebase. I'm keen to learn more.,Supabase,Junior
+"I can read simple SQL code and tweak examples, but I've never shipped anything with it. I'm keen to learn more.",SQL,Junior
+"Realistically, I built one small Linux demo for server administration by following a guide. That's the extent of my experience.",Linux,Junior
+"In short, I train and mentor engineers on Pandas. When something around tabular data wrangling fails in ways nobody else understands, I'm usually the one called in.",Pandas,Expert
+"Realistically, I've spoken publicly about JavaScript and written internal guides on browser scripting. The hardest cases in our company end up on my desk.",JavaScript,Expert
+"In short, I'm very comfortable owning Spark work end to end, from design to deployment. Problems around large-scale data processing that stump others are usually manageable for me.",Spark,Advanced
+My knowledge of Kafka is mostly theoretical; I've tried a handful of event streaming samples and that's it. I lean on the docs constantly.,Kafka,Junior
+"When something odd happens with Terraform, people ask me. I've led several large-scale cloud infrastructure efforts and I teach the advanced material to newcomers.",Terraform,Expert
+"Honestly, I know Bash well enough to choose between approaches for shell scripting and explain why. Production incidents rarely catch me off guard.",Bash,Advanced
+I often review Actix Web changes from teammates and own the technical design of Rust web services in my projects.,Actix Web,Advanced
+Angular is still new to me. I understand the basic ideas behind enterprise front ends but need step-by-step instructions to get anywhere.,Angular,Junior
+I've spoken publicly about Python and written internal guides on automation and data scripts. The hardest cases in our company end up on my desk. I enjoy passing that knowledge on.,Python,Expert
+"When something odd happens with RabbitMQ, people ask me. I've led several large-scale message queues efforts and I teach the advanced material to newcomers. I keep the team's standards up to date.",RabbitMQ,Expert
+"Overall, I've got a decent grasp of Laravel from a real project. I handle the usual PHP applications tasks and learn something new from each code review.",Laravel,Confirmed
+"Honestly, I can diagnose difficult Vue problems quickly and review other people's front-end components with confidence. I've seen most of the usual failure modes.",Vue,Advanced
+"My first production work with dbt was on SQL data transformations. It went fine, and I'm now picking up similar tasks with only light supervision.",dbt,Confirmed
+I'm recognised internally as the authority on Kotlin. I lead design reviews for Android and backend apps and run workshops on the deep details. People trust my call on the tricky decisions.,Kotlin,Expert
+"To be fair, my D3.js expertise goes beyond day-to-day delivery: I audit other teams' custom charts, define patterns and mentor tech leads on the subtle details.",D3.js,Expert
+"In short, I can read simple Flask code and tweak examples, but I've never shipped anything with it. I'm keen to learn more.",Flask,Junior
+"At the moment, I've shaped how our organisation approaches web backends with ASP.NET Core, and I regularly review and mentor architects on the most difficult cases. I keep the team's standards up to date.",ASP.NET Core,Expert
+"To be fair, I've worked with R for years and can design statistical analysis from scratch. I know the common pitfalls and how to avoid them.",R,Advanced
+"WebAssembly is part of my day-to-day work now. I'm comfortable with routine browser-side modules, but I'm still building depth.",WebAssembly,Confirmed
+"After many years with Prisma, I can predict where database access layers will break before a line is written, and I've defined our architecture guidelines. People trust my call on the tricky decisions.",Prisma,Expert
+"Kafka came up in a university module, so I've seen work on event streaming but never done it for real.",Kafka,Junior
+"Realistically, I'm very comfortable owning React work end to end, from design to deployment. Problems around component-based UIs that stump others are usually manageable for me. I'm happy to help teammates when they ask.",React,Advanced
+"When something odd happens with JavaScript, people ask me. I've led several large-scale browser scripting efforts and I teach the advanced material to newcomers. I enjoy passing that knowledge on.",JavaScript,Expert
+"Honestly, I regularly take on the complex Bootstrap work on my team, including responsive pages, and make technical decisions without needing sign-off.",Bootstrap,Advanced
+"With scikit-learn I can take an ambiguous classical ML models problem, pick a sound approach and see it through to production by myself. I rarely get stuck for long.",scikit-learn,Advanced
+I know Vue well enough to choose between approaches for front-end components and explain why. Production incidents rarely catch me off guard. I'm happy to help teammates when they ask.,Vue,Advanced
+"To be fair, I'm a beginner with Rust. When I work on systems programming I mostly copy patterns from the docs without fully knowing why they work.",Rust,Junior
+"Overall, I understand Jest at a level where I can explain why it behaves the way it does, not just how to use it. I advise on JavaScript tests for several teams.",Jest,Expert
+"At the moment, I understand Kotlin at a level where I can explain why it behaves the way it does, not just how to use it. I advise on Android and backend apps for several teams. I enjoy passing that knowledge on.",Kotlin,Expert
+"To be fair, my Elasticsearch experience is limited to a course and a couple of practice exercises around search indexes. I'm keen to learn more.",Elasticsearch,Junior
+"After many years with AWS CDK, I can predict where infrastructure as code will break before a line is written, and I've defined our architecture guidelines.",AWS CDK,Expert
+"At the moment, I know NestJS well enough to choose between approaches for structured Node APIs and explain why. Production incidents rarely catch me off guard.",NestJS,Advanced
+I know Angular down to its internals. I've designed enterprise front ends at scale and I'm the go-to person for the hardest problems across the organisation. I enjoy passing that knowledge on.,Angular,Expert
+"After many years with React, I can predict where component-based UIs will break before a line is written, and I've defined our architecture guidelines. People trust my call on the tricky decisions.",React,Expert
+Colleagues bring me their tough CSS questions. I've built and maintained several substantial page layouts setups on my own.,CSS,Advanced
+"Honestly, I'm a beginner with Airflow. When I work on workflow orchestration I mostly copy patterns from the docs without fully knowing why they work.",Airflow,Junior
+"I regularly take on the complex PyTorch work on my team, including deep learning models, and make technical decisions without needing sign-off. I rarely get stuck for long.",PyTorch,Advanced
+"Realistically, I've been using React professionally for a while. Everyday work on component-based UIs is fine, but I'm still learning how the more advanced features fit together. Code review helps me improve.",React,Confirmed
+"With D3.js I can take an ambiguous custom charts problem, pick a sound approach and see it through to production by myself. I rarely get stuck for long.",D3.js,Advanced
+"Overall, I've been using Godot professionally for a while. Everyday work on 2D game scenes is fine, but I'm still learning how the more advanced features fit together. I'm keen to grow into more complex work.",Godot,Confirmed
+"To be fair, my scikit-learn experience is limited to a course and a couple of practice exercises around classical ML models. I lean on the docs constantly.",scikit-learn,Junior
+"Kubernetes came up in a university module, so I've seen work on cluster deployments but never done it for real. I lean on the docs constantly.",Kubernetes,Junior
+"With Flutter I can take an ambiguous mobile UI work problem, pick a sound approach and see it through to production by myself. I'm happy to help teammates when they ask.",Flutter,Advanced
+I've worked with MongoDB for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on document stores gets done across our products.,MongoDB,Expert
+"Overall, I've worked with Kubernetes for years and can design cluster deployments from scratch. I know the common pitfalls and how to avoid them.",Kubernetes,Advanced
+"In short, I've used Entity Framework Core on a real project for .NET data access and can handle standard tasks myself. For anything unusual I check with a senior colleague. Code review helps me improve.",Entity Framework Core,Confirmed
+I've got a decent grasp of C++ from a real project. I handle the usual performance-sensitive code tasks and learn something new from each code review.,C++,Confirmed
+"Overall, my first production work with HTML was on semantic page markup. It went fine, and I'm now picking up similar tasks with only light supervision. Code review helps me improve.",HTML,Confirmed
+"In short, I've shipped a few features with Node.js in a team setting. I still need occasional guidance on design decisions. I'm still learning the deeper parts.",Node.js,Confirmed
+"After about a year with R, I can pick up a typical ticket involving statistical analysis and finish it without much supervision.",R,Confirmed
+"To be fair, my TensorFlow work covers architecture, tuning and troubleshooting for machine learning pipelines. I make the calls and take responsibility for the outcome.",TensorFlow,Advanced
+"At the moment, I have working experience with Spark: I follow existing conventions, fix common bugs and extend large-scale data processing without hand-holding. I'm still learning the deeper parts.",Spark,Confirmed
+"To be fair, I often review Flask changes from teammates and own the technical design of lightweight web services in my projects.",Flask,Advanced
+Other senior engineers consult me on Ruby. I've shaped long-term strategy for scripting and web tooling and coach people until they can handle it alone.,Ruby,Expert
+"To be fair, I'm recognised internally as the authority on C#. I lead design reviews for .NET applications and run workshops on the deep details. I keep the team's standards up to date.",C#,Expert
+"Honestly, I'm the strongest Supabase developer on my project. I can plan, build and debug hosted Postgres backends without anyone looking over my shoulder.",Supabase,Advanced
+"On my current team I take on regular Bash work involving shell scripting. I'm trusted with normal tickets, though big design choices are made by others.",Bash,Confirmed
+"At the moment, my Hibernate experience is limited to a course and a couple of practice exercises around Java persistence layers.",Hibernate,Junior
+"Realistically, I'm learning Python at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Python,Junior
+I've got a decent grasp of R from a real project. I handle the usual statistical analysis tasks and learn something new from each code review.,R,Confirmed
+"My ASP.NET Core expertise goes beyond day-to-day delivery: I audit other teams' web backends, define patterns and mentor tech leads on the subtle details.",ASP.NET Core,Expert
+"Honestly, I recognise the core PowerShell terminology and can run examples, though I've never been responsible for Windows automation scripts in a live project.",PowerShell,Junior
+"In short, I'm the strongest Airflow developer on my project. I can plan, build and debug workflow orchestration without anyone looking over my shoulder.",Airflow,Advanced
+"In short, my Actix Web experience is limited to a course and a couple of practice exercises around Rust web services. I lean on the docs constantly.",Actix Web,Junior
+"To be fair, I've shipped a few features with Kafka in a team setting. I still need occasional guidance on design decisions.",Kafka,Confirmed
+"Over several large projects with Swift I've led the design of iOS apps. I rarely need outside help, even when requirements are messy. I've seen most of the usual failure modes.",Swift,Advanced
+I've spoken publicly about Flutter and written internal guides on mobile UI work. The hardest cases in our company end up on my desk.,Flutter,Expert
+"At the moment, I recognise the core PyTorch terminology and can run examples, though I've never been responsible for deep learning models in a live project.",PyTorch,Junior
+I can diagnose difficult Java problems quickly and review other people's enterprise services with confidence.,Java,Advanced
+I've moved past tutorials with ASP.NET Core and contributed to production code for web backends. Debugging obscure issues is still a stretch for me.,ASP.NET Core,Confirmed
+Prisma is still new to me. I understand the basic ideas behind database access layers but need step-by-step instructions to get anywhere.,Prisma,Junior
+"Overall, my AWS Lambda work covers architecture, tuning and troubleshooting for serverless functions. I make the calls and take responsibility for the outcome. I've seen most of the usual failure modes.",AWS Lambda,Advanced
+"Honestly, I've contributed fixes and design feedback to the Laravel ecosystem, and I set the standards our company follows for PHP applications. People trust my call on the tricky decisions.",Laravel,Expert
+Entity Framework Core is one of my strongest tools. I've optimised .NET data access in production and can justify the tradeoffs I chose.,Entity Framework Core,Advanced
+I'm recognised internally as the authority on Entity Framework Core. I lead design reviews for .NET data access and run workshops on the deep details. I enjoy passing that knowledge on.,Entity Framework Core,Expert
+"Overall, I'm a beginner with Julia. When I work on numerical simulations I mostly copy patterns from the docs without fully knowing why they work. I'm keen to learn more.",Julia,Junior
+I've shipped a few features with pytest in a team setting. I still need occasional guidance on design decisions. Code review helps me improve.,pytest,Confirmed
+"To be fair, I can work independently on well-defined Swift tasks. Architecture and trickier iOS apps problems still go to someone more experienced. I'm still learning the deeper parts.",Swift,Confirmed
+"On my current team I take on regular Three.js work involving 3D web scenes. I'm trusted with normal tickets, though big design choices are made by others.",Three.js,Confirmed
+"At the moment, I've gone well beyond the basics of JavaScript: I handle browser scripting, performance problems and production failures independently. I've seen most of the usual failure modes.",JavaScript,Advanced
+"Overall, I've just begun experimenting with Playwright in my spare time. I can't yet tell good practice from bad when it comes to end-to-end browser tests.",Playwright,Junior
+"To be fair, my knowledge of Pandas is mostly theoretical; I've tried a handful of tabular data wrangling samples and that's it.",Pandas,Junior
+"I'm the final escalation point for AWS Lambda. I've redesigned serverless functions for scale, trained dozens of developers and set best practice for the whole department. I enjoy passing that knowledge on.",AWS Lambda,Expert
+"My Prisma work covers architecture, tuning and troubleshooting for database access layers. I make the calls and take responsibility for the outcome.",Prisma,Advanced
+New to Next.js here. I get stuck quickly when an example for server-rendered web apps differs from what the tutorial showed.,Next.js,Junior
+"Realistically, my first production work with C was on embedded utilities. It went fine, and I'm now picking up similar tasks with only light supervision. I'm still learning the deeper parts.",C,Confirmed
+"Realistically, my Kafka expertise goes beyond day-to-day delivery: I audit other teams' event streaming, define patterns and mentor tech leads on the subtle details.",Kafka,Expert
+"Overall, my HTML expertise goes beyond day-to-day delivery: I audit other teams' semantic page markup, define patterns and mentor tech leads on the subtle details.",HTML,Expert
+"I understand Go at a level where I can explain why it behaves the way it does, not just how to use it. I advise on concurrent services for several teams. People trust my call on the tricky decisions.",Go,Expert
+"At the moment, I've spent several years deep in Linux. I can untangle legacy server administration, plan a migration and deliver it without supervision. I rarely get stuck for long.",Linux,Advanced
+"In short, my Vite experience is limited to a course and a couple of practice exercises around front-end tooling.",Vite,Junior
+"Honestly, I've got a decent grasp of Kafka from a real project. I handle the usual event streaming tasks and learn something new from each code review.",Kafka,Confirmed
+"To be fair, I'm very comfortable owning PHP work end to end, from design to deployment. Problems around server-side web pages that stump others are usually manageable for me. I've seen most of the usual failure modes.",PHP,Advanced
+"To be fair, I've never used C# outside of learning material, and anything beyond simple .NET applications would stump me.",C#,Junior
+I can diagnose difficult Azure Functions problems quickly and review other people's serverless endpoints with confidence. I rarely get stuck for long.,Azure Functions,Advanced
+"At the moment, I'm the final escalation point for Java. I've redesigned enterprise services for scale, trained dozens of developers and set best practice for the whole department. I keep the team's standards up to date.",Java,Expert
+"After about a year with Python, I can pick up a typical ticket involving automation and data scripts and finish it without much supervision. I'm still learning the deeper parts.",Python,Confirmed
+"I regularly take on the complex Hibernate work on my team, including Java persistence layers, and make technical decisions without needing sign-off. I'm happy to help teammates when they ask.",Hibernate,Advanced
+"At the moment, I've watched a few TensorFlow videos and followed along with some machine learning pipelines samples. Nothing production-grade yet.",TensorFlow,Junior
+"I'm the strongest Rust developer on my project. I can plan, build and debug systems programming without anyone looking over my shoulder. I'm happy to help teammates when they ask.",Rust,Advanced
+"I'm the final escalation point for Spark. I've redesigned large-scale data processing for scale, trained dozens of developers and set best practice for the whole department.",Spark,Expert
+"Honestly, I know Angular down to its internals. I've designed enterprise front ends at scale and I'm the go-to person for the hardest problems across the organisation.",Angular,Expert
+"On my current team I take on regular Scala work involving functional backend services. I'm trusted with normal tickets, though big design choices are made by others.",Scala,Confirmed
+"At the moment, I've never used Supabase outside of learning material, and anything beyond simple hosted Postgres backends would stump me.",Supabase,Junior
+I've watched a few Sass videos and followed along with some stylesheet architecture samples. Nothing production-grade yet.,Sass,Junior
+"In short, I've shipped a few features with SwiftUI in a team setting. I still need occasional guidance on design decisions.",SwiftUI,Confirmed
+"To be fair, my Power BI skills are solid for everyday work. I handle business dashboards reliably, though I wouldn't call myself deeply experienced. Code review helps me improve.",Power BI,Confirmed
+Right now I'm working through Dart exercises on cross-platform apps. Nobody has reviewed any of my code yet.,Dart,Junior
+"In short, my Sass skills are solid for everyday work. I handle stylesheet architecture reliably, though I wouldn't call myself deeply experienced. I'm keen to grow into more complex work.",Sass,Confirmed
+"When something odd happens with Nginx, people ask me. I've led several large-scale reverse proxy setups efforts and I teach the advanced material to newcomers. I enjoy passing that knowledge on.",Nginx,Expert
+I've worked with C# for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on .NET applications gets done across our products.,C#,Expert
+I'm just picking up GraphQL. I'd need a lot of help before I could contribute to a real codebase.,GraphQL,Junior
+"I'm learning MySQL at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own. I lean on the docs constantly.",MySQL,Junior
+"At the moment, I'm a beginner with Playwright. When I work on end-to-end browser tests I mostly copy patterns from the docs without fully knowing why they work.",Playwright,Junior
+"My Django expertise goes beyond day-to-day delivery: I audit other teams' database-backed web apps, define patterns and mentor tech leads on the subtle details.",Django,Expert
+"At the moment, I've been using D3.js professionally for a while. Everyday work on custom charts is fine, but I'm still learning how the more advanced features fit together. Code review helps me improve.",D3.js,Confirmed
+"At the moment, I've moved past tutorials with Firebase and contributed to production code for mobile app backends. Debugging obscure issues is still a stretch for me. I'm keen to grow into more complex work.",Firebase,Confirmed
+"Realistically, I've spoken publicly about Webpack and written internal guides on bundling configuration. The hardest cases in our company end up on my desk.",Webpack,Expert
+"I train and mentor engineers on Nuxt. When something around Vue-based sites fails in ways nobody else understands, I'm usually the one called in.",Nuxt,Expert
+Right now I'm working through Ansible exercises on server automation. Nobody has reviewed any of my code yet.,Ansible,Junior
+"To be fair, I've contributed fixes and design feedback to the scikit-learn ecosystem, and I set the standards our company follows for classical ML models. I keep the team's standards up to date.",scikit-learn,Expert
+Other senior engineers consult me on PostgreSQL. I've shaped long-term strategy for relational schemas and coach people until they can handle it alone. People trust my call on the tricky decisions.,PostgreSQL,Expert
+"At the moment, I've never used jQuery outside of learning material, and anything beyond simple legacy page scripting would stump me.",jQuery,Junior
+"With JavaScript I can take an ambiguous browser scripting problem, pick a sound approach and see it through to production by myself.",JavaScript,Advanced
+"So far I've only used D3.js in a bootcamp setting. Toy examples for custom charts work, but a real project feels out of reach. I'm keen to learn more.",D3.js,Junior
+"In short, my Actix Web work covers architecture, tuning and troubleshooting for Rust web services. I make the calls and take responsibility for the outcome. I rarely get stuck for long.",Actix Web,Advanced
+"Overall, I'm recognised internally as the authority on dbt. I lead design reviews for SQL data transformations and run workshops on the deep details.",dbt,Expert
+Nginx is still new to me. I understand the basic ideas behind reverse proxy setups but need step-by-step instructions to get anywhere. Still very early days.,Nginx,Junior
+Other senior engineers consult me on Vue. I've shaped long-term strategy for front-end components and coach people until they can handle it alone. People trust my call on the tricky decisions.,Vue,Expert
+I can work independently on well-defined Jenkins tasks. Architecture and trickier automated build jobs problems still go to someone more experienced. I'm keen to grow into more complex work.,Jenkins,Confirmed
+"Overall, I'd describe my CSS level as competent but not yet seasoned. I've delivered page layouts for a client, and I'm still gaining confidence with edge cases.",CSS,Confirmed
+"In short, I've shaped how our organisation approaches structured Node APIs with NestJS, and I regularly review and mentor architects on the most difficult cases.",NestJS,Expert
+I've spoken publicly about Tableau and written internal guides on interactive visualizations. The hardest cases in our company end up on my desk. I keep the team's standards up to date.,Tableau,Expert
+"At the moment, I've been using HTML professionally for a while. Everyday work on semantic page markup is fine, but I'm still learning how the more advanced features fit together.",HTML,Confirmed
+"Honestly, I've built and rescued Swift systems of every size, including mission-critical iOS apps. Teams across the company rely on my judgement. I keep the team's standards up to date.",Swift,Expert
+"I've been using Vue professionally for a while. Everyday work on front-end components is fine, but I'm still learning how the more advanced features fit together.",Vue,Confirmed
+Other senior engineers consult me on TensorFlow. I've shaped long-term strategy for machine learning pipelines and coach people until they can handle it alone.,TensorFlow,Expert
+"With C# I can take an ambiguous .NET applications problem, pick a sound approach and see it through to production by myself.",C#,Advanced
+I've spoken publicly about Three.js and written internal guides on 3D web scenes. The hardest cases in our company end up on my desk. People trust my call on the tricky decisions.,Three.js,Expert
+I've watched a few AWS Lambda videos and followed along with some serverless functions samples. Nothing production-grade yet. Still very early days.,AWS Lambda,Junior
+"At the moment, I've built and rescued WebAssembly systems of every size, including mission-critical browser-side modules. Teams across the company rely on my judgement.",WebAssembly,Expert
+"In short, I'm the final escalation point for Rails. I've redesigned Ruby web apps for scale, trained dozens of developers and set best practice for the whole department. I enjoy passing that knowledge on.",Rails,Expert
+I built one small Godot demo for 2D game scenes by following a guide. That's the extent of my experience.,Godot,Junior
+Other senior engineers consult me on Rust. I've shaped long-term strategy for systems programming and coach people until they can handle it alone.,Rust,Expert
+"At the moment, I'm the strongest Tableau developer on my project. I can plan, build and debug interactive visualizations without anyone looking over my shoulder. I'm happy to help teammates when they ask.",Tableau,Advanced
+Other senior engineers consult me on Unreal Engine. I've shaped long-term strategy for 3D game levels and coach people until they can handle it alone. I enjoy passing that knowledge on.,Unreal Engine,Expert
+"My Kotlin skills are solid for everyday work. I handle Android and backend apps reliably, though I wouldn't call myself deeply experienced. I'm still learning the deeper parts.",Kotlin,Confirmed
+I've worked with D3.js for years and can design custom charts from scratch. I know the common pitfalls and how to avoid them. I've seen most of the usual failure modes.,D3.js,Advanced
+"Honestly, I've solved some nasty Scala issues around functional backend services and can walk teammates through the reasoning behind each fix.",Scala,Advanced
+"I have working experience with Julia: I follow existing conventions, fix common bugs and extend numerical simulations without hand-holding.",Julia,Confirmed
+"Honestly, I know what Nuxt is for and can run the basics, but Vue-based sites in a team setting is unfamiliar territory. Still very early days.",Nuxt,Junior
+Colleagues bring me their tough Elasticsearch questions. I've built and maintained several substantial search indexes setups on my own.,Elasticsearch,Advanced
+Terraform is one of my strongest tools. I've optimised cloud infrastructure in production and can justify the tradeoffs I chose. I rarely get stuck for long.,Terraform,Advanced
+"So far I've only used Bootstrap in a bootcamp setting. Toy examples for responsive pages work, but a real project feels out of reach.",Bootstrap,Junior
+"Honestly, I've got a decent grasp of Angular from a real project. I handle the usual enterprise front ends tasks and learn something new from each code review.",Angular,Confirmed
+"Honestly, I can read simple HTML code and tweak examples, but I've never shipped anything with it.",HTML,Junior
+I've solved some nasty Flask issues around lightweight web services and can walk teammates through the reasoning behind each fix.,Flask,Advanced
+"In short, I've worked with Firebase on two or three projects. Standard work on mobile app backends doesn't worry me, and my reviews rarely turn up big problems.",Firebase,Confirmed
+"Realistically, I've only just started with Cypress. I can follow a tutorial on browser test automation, but I haven't built anything real yet. Still very early days.",Cypress,Junior
+"Realistically, I'm comfortable enough with Symfony to deliver PHP back-office apps on my own; for performance tuning or unusual setups I ask for a second opinion. I'm keen to grow into more complex work.",Symfony,Confirmed
+"Overall, I regularly take on the complex Node.js work on my team, including backend services, and make technical decisions without needing sign-off. I'm happy to help teammates when they ask.",Node.js,Advanced
+"Realistically, I've used Linux on a real project for server administration and can handle standard tasks myself. For anything unusual I check with a senior colleague. I'm keen to grow into more complex work.",Linux,Confirmed
+I know R well enough to choose between approaches for statistical analysis and explain why. Production incidents rarely catch me off guard.,R,Advanced
+"I've shaped how our organisation approaches numerical simulations with Julia, and I regularly review and mentor architects on the most difficult cases. I keep the team's standards up to date.",Julia,Expert
+"At the moment, I'm very comfortable owning Webpack work end to end, from design to deployment. Problems around bundling configuration that stump others are usually manageable for me. I'm happy to help teammates when they ask.",Webpack,Advanced
+"At the moment, my Jest expertise goes beyond day-to-day delivery: I audit other teams' JavaScript tests, define patterns and mentor tech leads on the subtle details. People trust my call on the tricky decisions.",Jest,Expert
+"Overall, I've solved some nasty Kubernetes issues around cluster deployments and can walk teammates through the reasoning behind each fix. I'm happy to help teammates when they ask.",Kubernetes,Advanced
+"Honestly, I've worked with AWS CDK for years and can design infrastructure as code from scratch. I know the common pitfalls and how to avoid them.",AWS CDK,Advanced
+"To be fair, I recognise the core Bash terminology and can run examples, though I've never been responsible for shell scripting in a live project.",Bash,Junior
+"In short, I'm comfortable enough with Ruby to deliver scripting and web tooling on my own; for performance tuning or unusual setups I ask for a second opinion.",Ruby,Confirmed
+"My WebAssembly skills are solid for everyday work. I handle browser-side modules reliably, though I wouldn't call myself deeply experienced. Code review helps me improve.",WebAssembly,Confirmed
+"I understand Symfony at a level where I can explain why it behaves the way it does, not just how to use it. I advise on PHP back-office apps for several teams.",Symfony,Expert
+"Realistically, I've only just started with NumPy. I can follow a tutorial on numerical computing, but I haven't built anything real yet. I'm keen to learn more.",NumPy,Junior
+I'm recognised internally as the authority on Git. I lead design reviews for branching workflows and run workshops on the deep details. I keep the team's standards up to date.,Git,Expert
+"I've only just started with Power BI. I can follow a tutorial on business dashboards, but I haven't built anything real yet. Still very early days.",Power BI,Junior
+"Over several large projects with RabbitMQ I've led the design of message queues. I rarely need outside help, even when requirements are messy.",RabbitMQ,Advanced
+"After about a year with Azure Functions, I can pick up a typical ticket involving serverless endpoints and finish it without much supervision. I'm still learning the deeper parts.",Azure Functions,Confirmed
+Other senior engineers consult me on C++. I've shaped long-term strategy for performance-sensitive code and coach people until they can handle it alone.,C++,Expert
+I'm just picking up Docker. I'd need a lot of help before I could contribute to a real codebase. I lean on the docs constantly.,Docker,Junior
+"So far I've only used SQL in a bootcamp setting. Toy examples for reporting queries work, but a real project feels out of reach. Still very early days.",SQL,Junior
+"At the moment, my Kotlin experience is limited to a course and a couple of practice exercises around Android and backend apps.",Kotlin,Junior
+"I'd describe my Jest level as competent but not yet seasoned. I've delivered JavaScript tests for a client, and I'm still gaining confidence with edge cases. Code review helps me improve.",Jest,Confirmed
+I can work independently on well-defined SQLite tasks. Architecture and trickier local data storage problems still go to someone more experienced.,SQLite,Confirmed
+"With MySQL I can take an ambiguous relational databases problem, pick a sound approach and see it through to production by myself.",MySQL,Advanced
+"I know what Tailwind CSS is for and can run the basics, but utility-first styling in a team setting is unfamiliar territory. I lean on the docs constantly.",Tailwind CSS,Junior
+I've moved past tutorials with Express and contributed to production code for small web APIs. Debugging obscure issues is still a stretch for me.,Express,Confirmed
+I know Flutter down to its internals. I've designed mobile UI work at scale and I'm the go-to person for the hardest problems across the organisation. I enjoy passing that knowledge on.,Flutter,Expert
+"In short, I've worked with Spark on two or three projects. Standard work on large-scale data processing doesn't worry me, and my reviews rarely turn up big problems.",Spark,Confirmed
+Kotlin is one of my strongest tools. I've optimised Android and backend apps in production and can justify the tradeoffs I chose. I rarely get stuck for long.,Kotlin,Advanced
+"My Sass expertise goes beyond day-to-day delivery: I audit other teams' stylesheet architecture, define patterns and mentor tech leads on the subtle details.",Sass,Expert
+"In short, I've built and rescued Docker systems of every size, including mission-critical containerized builds. Teams across the company rely on my judgement. I keep the team's standards up to date.",Docker,Expert
+"I've shaped how our organisation approaches performance-sensitive code with C++, and I regularly review and mentor architects on the most difficult cases.",C++,Expert
+"To be fair, I've moved past tutorials with GitHub Actions and contributed to production code for CI workflows. Debugging obscure issues is still a stretch for me.",GitHub Actions,Confirmed
+"Honestly, I built one small Jest demo for JavaScript tests by following a guide. That's the extent of my experience.",Jest,Junior
+"Realistically, my Bash skills are solid for everyday work. I handle shell scripting reliably, though I wouldn't call myself deeply experienced. I'm still learning the deeper parts.",Bash,Confirmed
+"I can read simple Rust code and tweak examples, but I've never shipped anything with it. I lean on the docs constantly.",Rust,Junior
+"Realistically, my PowerShell work covers architecture, tuning and troubleshooting for Windows automation scripts. I make the calls and take responsibility for the outcome. I rarely get stuck for long.",PowerShell,Advanced
+"I've never used RabbitMQ outside of learning material, and anything beyond simple message queues would stump me.",RabbitMQ,Junior
+Express is still new to me. I understand the basic ideas behind small web APIs but need step-by-step instructions to get anywhere.,Express,Junior
+My knowledge of Redis is mostly theoretical; I've tried a handful of caching layers samples and that's it. I'm keen to learn more.,Redis,Junior
+I can diagnose difficult PyTorch problems quickly and review other people's deep learning models with confidence. I've seen most of the usual failure modes.,PyTorch,Advanced
+"In short, I can read simple dbt code and tweak examples, but I've never shipped anything with it. Still very early days.",dbt,Junior
+I've used Tableau on a real project for interactive visualizations and can handle standard tasks myself. For anything unusual I check with a senior colleague. Code review helps me improve.,Tableau,Confirmed
+"Realistically, I've worked with Ansible for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on server automation gets done across our products. I enjoy passing that knowledge on.",Ansible,Expert
+"Prisma is part of my day-to-day work now. I'm comfortable with routine database access layers, but I'm still building depth.",Prisma,Confirmed
+My knowledge of Webpack is mostly theoretical; I've tried a handful of bundling configuration samples and that's it.,Webpack,Junior
+"At the moment, I've solved some nasty SwiftUI issues around Apple app interfaces and can walk teammates through the reasoning behind each fix.",SwiftUI,Advanced
+"At the moment, I can diagnose difficult CSS problems quickly and review other people's page layouts with confidence. I've seen most of the usual failure modes.",CSS,Advanced
+"Honestly, I have working experience with Jetpack Compose: I follow existing conventions, fix common bugs and extend Android UI screens without hand-holding. I'm still learning the deeper parts.",Jetpack Compose,Confirmed
+"To be fair, I've watched a few Symfony videos and followed along with some PHP back-office apps samples. Nothing production-grade yet. Still very early days.",Symfony,Junior
+"Cypress is part of my day-to-day work now. I'm comfortable with routine browser test automation, but I'm still building depth.",Cypress,Confirmed
+"In short, I'd describe my RabbitMQ level as competent but not yet seasoned. I've delivered message queues for a client, and I'm still gaining confidence with edge cases.",RabbitMQ,Confirmed
+"I'm learning Jenkins at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Jenkins,Junior
+"I'm the final escalation point for TypeScript. I've redesigned typed front-end code for scale, trained dozens of developers and set best practice for the whole department. People trust my call on the tricky decisions.",TypeScript,Expert
+"At the moment, I've used Flutter on a real project for mobile UI work and can handle standard tasks myself. For anything unusual I check with a senior colleague.",Flutter,Confirmed
+"In short, I'm recognised internally as the authority on Go. I lead design reviews for concurrent services and run workshops on the deep details.",Go,Expert
+"I know what Node.js is for and can run the basics, but backend services in a team setting is unfamiliar territory. I lean on the docs constantly.",Node.js,Junior
+"To be fair, I can read simple Git code and tweak examples, but I've never shipped anything with it. Still very early days.",Git,Junior
+"To be fair, I'm learning Prisma at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Prisma,Junior
+"After many years with Linux, I can predict where server administration will break before a line is written, and I've defined our architecture guidelines.",Linux,Expert
+"Realistically, I'm very comfortable owning jQuery work end to end, from design to deployment. Problems around legacy page scripting that stump others are usually manageable for me.",jQuery,Advanced
+"My Svelte work covers architecture, tuning and troubleshooting for reactive interfaces. I make the calls and take responsibility for the outcome.",Svelte,Advanced
+"Honestly, I know Next.js down to its internals. I've designed server-rendered web apps at scale and I'm the go-to person for the hardest problems across the organisation.",Next.js,Expert
+"Honestly, I've just begun experimenting with Spark in my spare time. I can't yet tell good practice from bad when it comes to large-scale data processing. I'm keen to learn more.",Spark,Junior
+"React Native is part of my day-to-day work now. I'm comfortable with routine mobile app features, but I'm still building depth.",React Native,Confirmed
+Vitest is still new to me. I understand the basic ideas behind JavaScript unit tests but need step-by-step instructions to get anywhere.,Vitest,Junior
+"Realistically, my Swift experience is limited to a course and a couple of practice exercises around iOS apps. Still very early days.",Swift,Junior
+"Overall, I've never used Three.js outside of learning material, and anything beyond simple 3D web scenes would stump me.",Three.js,Junior
+I've spoken publicly about Terraform and written internal guides on cloud infrastructure. The hardest cases in our company end up on my desk. I keep the team's standards up to date.,Terraform,Expert
+"Overall, my first production work with Airflow was on workflow orchestration. It went fine, and I'm now picking up similar tasks with only light supervision. I'm still learning the deeper parts.",Airflow,Confirmed
+"Realistically, I've gone well beyond the basics of Ruby: I handle scripting and web tooling, performance problems and production failures independently.",Ruby,Advanced
+"After about a year with Flask, I can pick up a typical ticket involving lightweight web services and finish it without much supervision.",Flask,Confirmed
+"To be fair, I can read simple PostgreSQL code and tweak examples, but I've never shipped anything with it.",PostgreSQL,Junior
+"Realistically, I've been using Scala professionally for a while. Everyday work on functional backend services is fine, but I'm still learning how the more advanced features fit together. Code review helps me improve.",Scala,Confirmed
+"At the moment, I've spoken publicly about Flask and written internal guides on lightweight web services. The hardest cases in our company end up on my desk.",Flask,Expert
+New to NestJS here. I get stuck quickly when an example for structured Node APIs differs from what the tutorial showed. Still very early days.,NestJS,Junior
+"To be fair, my knowledge of C is mostly theoretical; I've tried a handful of embedded utilities samples and that's it.",C,Junior
+"I'm the final escalation point for Hibernate. I've redesigned Java persistence layers for scale, trained dozens of developers and set best practice for the whole department.",Hibernate,Expert
+My knowledge of Unity is mostly theoretical; I've tried a handful of real-time 3D prototypes samples and that's it. I'm keen to learn more.,Unity,Junior
+"Overall, I understand Spark at a level where I can explain why it behaves the way it does, not just how to use it. I advise on large-scale data processing for several teams.",Spark,Expert
+"I understand Ansible at a level where I can explain why it behaves the way it does, not just how to use it. I advise on server automation for several teams. I keep the team's standards up to date.",Ansible,Expert
+"I regularly take on the complex Webpack work on my team, including bundling configuration, and make technical decisions without needing sign-off.",Webpack,Advanced
+"In short, I've built and rescued PostgreSQL systems of every size, including mission-critical relational schemas. Teams across the company rely on my judgement. People trust my call on the tricky decisions.",PostgreSQL,Expert
+"Overall, I've gone well beyond the basics of Spring Boot: I handle Java microservices, performance problems and production failures independently. I rarely get stuck for long.",Spring Boot,Advanced
+"Realistically, I've got a decent grasp of PyTorch from a real project. I handle the usual deep learning models tasks and learn something new from each code review.",PyTorch,Confirmed
+"To be fair, I've spoken publicly about GraphQL and written internal guides on API schemas. The hardest cases in our company end up on my desk. People trust my call on the tricky decisions.",GraphQL,Expert
+"In short, I have working experience with C++: I follow existing conventions, fix common bugs and extend performance-sensitive code without hand-holding. I'm keen to grow into more complex work.",C++,Confirmed
+"At the moment, I've built and rescued React Native systems of every size, including mission-critical mobile app features. Teams across the company rely on my judgement.",React Native,Expert
+My knowledge of AWS CDK is mostly theoretical; I've tried a handful of infrastructure as code samples and that's it.,AWS CDK,Junior
+"At the moment, I've solved some nasty FastAPI issues around Python APIs and can walk teammates through the reasoning behind each fix.",FastAPI,Advanced
+I've just begun experimenting with RabbitMQ in my spare time. I can't yet tell good practice from bad when it comes to message queues. I'm keen to learn more.,RabbitMQ,Junior
+"To be fair, I've shaped how our organisation approaches Apple app interfaces with SwiftUI, and I regularly review and mentor architects on the most difficult cases.",SwiftUI,Expert
+"Overall, I've shipped a few features with TensorFlow in a team setting. I still need occasional guidance on design decisions.",TensorFlow,Confirmed
+"At the moment, I've used Docker on a real project for containerized builds and can handle standard tasks myself. For anything unusual I check with a senior colleague. I'm still learning the deeper parts.",Docker,Confirmed
+"I'm the final escalation point for SQLite. I've redesigned local data storage for scale, trained dozens of developers and set best practice for the whole department.",SQLite,Expert
+"Realistically, I can build and maintain simple business dashboards in Power BI by myself. When requirements get complicated, I like to talk it through with a lead first.",Power BI,Confirmed
+"I'd describe my Supabase level as competent but not yet seasoned. I've delivered hosted Postgres backends for a client, and I'm still gaining confidence with edge cases.",Supabase,Confirmed
+My knowledge of Cypress is mostly theoretical; I've tried a handful of browser test automation samples and that's it. I'm keen to learn more.,Cypress,Junior
+"I train and mentor engineers on GitLab CI. When something around build pipelines fails in ways nobody else understands, I'm usually the one called in.",GitLab CI,Expert
+New to Express here. I get stuck quickly when an example for small web APIs differs from what the tutorial showed.,Express,Junior
+C++ is one of my strongest tools. I've optimised performance-sensitive code in production and can justify the tradeoffs I chose.,C++,Advanced
+"At the moment, I've worked with dbt on two or three projects. Standard work on SQL data transformations doesn't worry me, and my reviews rarely turn up big problems.",dbt,Confirmed
+"Honestly, I'm the strongest PostgreSQL developer on my project. I can plan, build and debug relational schemas without anyone looking over my shoulder.",PostgreSQL,Advanced
+"Honestly, I've shipped a few features with Go in a team setting. I still need occasional guidance on design decisions. Code review helps me improve.",Go,Confirmed
+Gin is one of my strongest tools. I've optimised Go HTTP services in production and can justify the tradeoffs I chose.,Gin,Advanced
+"I've contributed fixes and design feedback to the Next.js ecosystem, and I set the standards our company follows for server-rendered web apps. People trust my call on the tricky decisions.",Next.js,Expert
+"At the moment, I've worked with JavaScript on two or three projects. Standard work on browser scripting doesn't worry me, and my reviews rarely turn up big problems.",JavaScript,Confirmed
+I can diagnose difficult Linux problems quickly and review other people's server administration with confidence.,Linux,Advanced
+"I know what TensorFlow is for and can run the basics, but machine learning pipelines in a team setting is unfamiliar territory. I lean on the docs constantly.",TensorFlow,Junior
+"At the moment, I'm learning Rails at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Rails,Junior
+"Airflow came up in a university module, so I've seen work on workflow orchestration but never done it for real. Still very early days.",Airflow,Junior
+"In short, I recognise the core Flutter terminology and can run examples, though I've never been responsible for mobile UI work in a live project.",Flutter,Junior
+"Webpack is part of my day-to-day work now. I'm comfortable with routine bundling configuration, but I'm still building depth.",Webpack,Confirmed
+"Realistically, I'm learning Redis at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Redis,Junior
+"I train and mentor engineers on Elasticsearch. When something around search indexes fails in ways nobody else understands, I'm usually the one called in.",Elasticsearch,Expert
+"At the moment, I've moved past tutorials with Next.js and contributed to production code for server-rendered web apps. Debugging obscure issues is still a stretch for me.",Next.js,Confirmed
+jQuery is still new to me. I understand the basic ideas behind legacy page scripting but need step-by-step instructions to get anywhere.,jQuery,Junior
+"To be fair, I train and mentor engineers on Vitest. When something around JavaScript unit tests fails in ways nobody else understands, I'm usually the one called in.",Vitest,Expert
+Colleagues bring me their tough NumPy questions. I've built and maintained several substantial numerical computing setups on my own. I rarely get stuck for long.,NumPy,Advanced
+"TypeScript came up in a university module, so I've seen work on typed front-end code but never done it for real. Still very early days.",TypeScript,Junior
+"In short, my GitHub Actions skills are solid for everyday work. I handle CI workflows reliably, though I wouldn't call myself deeply experienced. I'm keen to grow into more complex work.",GitHub Actions,Confirmed
+"In short, I've gone well beyond the basics of GitHub Actions: I handle CI workflows, performance problems and production failures independently.",GitHub Actions,Advanced
+"At the moment, I regularly take on the complex Gin work on my team, including Go HTTP services, and make technical decisions without needing sign-off.",Gin,Advanced
+"PowerShell is part of my day-to-day work now. I'm comfortable with routine Windows automation scripts, but I'm still building depth. I'm still learning the deeper parts.",PowerShell,Confirmed
+I'm just picking up Scala. I'd need a lot of help before I could contribute to a real codebase.,Scala,Junior
+"I've been using GraphQL professionally for a while. Everyday work on API schemas is fine, but I'm still learning how the more advanced features fit together.",GraphQL,Confirmed
+"Realistically, I've worked with React on two or three projects. Standard work on component-based UIs doesn't worry me, and my reviews rarely turn up big problems.",React,Confirmed
+"Realistically, I've spent several years deep in PHP. I can untangle legacy server-side web pages, plan a migration and deliver it without supervision. I rarely get stuck for long.",PHP,Advanced
+I often review Laravel changes from teammates and own the technical design of PHP applications in my projects.,Laravel,Advanced
+"Realistically, I'm just picking up Power BI. I'd need a lot of help before I could contribute to a real codebase.",Power BI,Junior
+I've solved some nasty Unity issues around real-time 3D prototypes and can walk teammates through the reasoning behind each fix.,Unity,Advanced
+"To be fair, I recognise the core Julia terminology and can run examples, though I've never been responsible for numerical simulations in a live project.",Julia,Junior
+Docker is one of my strongest tools. I've optimised containerized builds in production and can justify the tradeoffs I chose. I'm happy to help teammates when they ask.,Docker,Advanced
+"Honestly, I'm the strongest Three.js developer on my project. I can plan, build and debug 3D web scenes without anyone looking over my shoulder. I'm happy to help teammates when they ask.",Three.js,Advanced
+Ruby is one of my strongest tools. I've optimised scripting and web tooling in production and can justify the tradeoffs I chose. I rarely get stuck for long.,Ruby,Advanced
+"Over several large projects with Kafka I've led the design of event streaming. I rarely need outside help, even when requirements are messy.",Kafka,Advanced
+"I can build and maintain simple utility-first styling in Tailwind CSS by myself. When requirements get complicated, I like to talk it through with a lead first.",Tailwind CSS,Confirmed
+"On my current team I take on regular Ansible work involving server automation. I'm trusted with normal tickets, though big design choices are made by others. I'm still learning the deeper parts.",Ansible,Confirmed
+"At the moment, I've been using NumPy professionally for a while. Everyday work on numerical computing is fine, but I'm still learning how the more advanced features fit together. I'm keen to grow into more complex work.",NumPy,Confirmed
+"I've been using Unity professionally for a while. Everyday work on real-time 3D prototypes is fine, but I'm still learning how the more advanced features fit together.",Unity,Confirmed
+"I'm the strongest Next.js developer on my project. I can plan, build and debug server-rendered web apps without anyone looking over my shoulder.",Next.js,Advanced
+Google Cloud Run is one of my strongest tools. I've optimised containerized services in production and can justify the tradeoffs I chose. I've seen most of the usual failure modes.,Google Cloud Run,Advanced
+"At the moment, I'm the final escalation point for Django. I've redesigned database-backed web apps for scale, trained dozens of developers and set best practice for the whole department. I enjoy passing that knowledge on.",Django,Expert
+I've used Ruby on a real project for scripting and web tooling and can handle standard tasks myself. For anything unusual I check with a senior colleague.,Ruby,Confirmed
+"Overall, my Elasticsearch skills are solid for everyday work. I handle search indexes reliably, though I wouldn't call myself deeply experienced.",Elasticsearch,Confirmed
+"Realistically, I recognise the core React Native terminology and can run examples, though I've never been responsible for mobile app features in a live project. I'm keen to learn more.",React Native,Junior
+"At the moment, I know what PHP is for and can run the basics, but server-side web pages in a team setting is unfamiliar territory.",PHP,Junior
+Other senior engineers consult me on Sass. I've shaped long-term strategy for stylesheet architecture and coach people until they can handle it alone.,Sass,Expert
+Right now I'm working through Linux exercises on server administration. Nobody has reviewed any of my code yet. Still very early days.,Linux,Junior
+"In short, I can read simple NumPy code and tweak examples, but I've never shipped anything with it. Still very early days.",NumPy,Junior
+"Realistically, I'm just picking up Vitest. I'd need a lot of help before I could contribute to a real codebase.",Vitest,Junior
+"On my current team I take on regular Azure Functions work involving serverless endpoints. I'm trusted with normal tickets, though big design choices are made by others. I'm keen to grow into more complex work.",Azure Functions,Confirmed
+Right now I'm working through Jenkins exercises on automated build jobs. Nobody has reviewed any of my code yet. I lean on the docs constantly.,Jenkins,Junior
+"In short, I've watched a few MySQL videos and followed along with some relational databases samples. Nothing production-grade yet. Still very early days.",MySQL,Junior
+"In short, I often review Cypress changes from teammates and own the technical design of browser test automation in my projects.",Cypress,Advanced
+"At the moment, I have working experience with Nuxt: I follow existing conventions, fix common bugs and extend Vue-based sites without hand-holding.",Nuxt,Confirmed
+I can diagnose difficult Ansible problems quickly and review other people's server automation with confidence.,Ansible,Advanced
+"To be fair, I've spoken publicly about Cypress and written internal guides on browser test automation. The hardest cases in our company end up on my desk.",Cypress,Expert
+I often review Unreal Engine changes from teammates and own the technical design of 3D game levels in my projects.,Unreal Engine,Advanced
+"Unreal Engine is part of my day-to-day work now. I'm comfortable with routine 3D game levels, but I'm still building depth.",Unreal Engine,Confirmed
+"Honestly, I've watched a few C++ videos and followed along with some performance-sensitive code samples. Nothing production-grade yet. I lean on the docs constantly.",C++,Junior
+"I've contributed fixes and design feedback to the Godot ecosystem, and I set the standards our company follows for 2D game scenes.",Godot,Expert
+"Honestly, I know C well enough to choose between approaches for embedded utilities and explain why. Production incidents rarely catch me off guard. I've seen most of the usual failure modes.",C,Advanced
+I've moved past tutorials with Svelte and contributed to production code for reactive interfaces. Debugging obscure issues is still a stretch for me.,Svelte,Confirmed
+"To be fair, I know what Spring Boot is for and can run the basics, but Java microservices in a team setting is unfamiliar territory.",Spring Boot,Junior
+I've watched a few SwiftUI videos and followed along with some Apple app interfaces samples. Nothing production-grade yet. I'm keen to learn more.,SwiftUI,Junior
+"To be fair, I've spoken publicly about Firebase and written internal guides on mobile app backends. The hardest cases in our company end up on my desk.",Firebase,Expert
+"Honestly, I've used NumPy on a real project for numerical computing and can handle standard tasks myself. For anything unusual I check with a senior colleague.",NumPy,Confirmed
+"Realistically, I'm a beginner with Flask. When I work on lightweight web services I mostly copy patterns from the docs without fully knowing why they work. I lean on the docs constantly.",Flask,Junior
+"I've been using NestJS professionally for a while. Everyday work on structured Node APIs is fine, but I'm still learning how the more advanced features fit together. I'm keen to grow into more complex work.",NestJS,Confirmed
+"In short, I've worked with GitHub Actions for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on CI workflows gets done across our products.",GitHub Actions,Expert
+"On my current team I take on regular RabbitMQ work involving message queues. I'm trusted with normal tickets, though big design choices are made by others.",RabbitMQ,Confirmed
+I've worked with Flask for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on lightweight web services gets done across our products.,Flask,Expert
+"Realistically, I've moved past tutorials with Svelte and contributed to production code for reactive interfaces. Debugging obscure issues is still a stretch for me. Code review helps me improve.",Svelte,Confirmed
+"At the moment, I built one small Firebase demo for mobile app backends by following a guide. That's the extent of my experience.",Firebase,Junior
+"Honestly, I know C down to its internals. I've designed embedded utilities at scale and I'm the go-to person for the hardest problems across the organisation.",C,Expert
+"Honestly, I can read simple TypeScript code and tweak examples, but I've never shipped anything with it. I lean on the docs constantly.",TypeScript,Junior
+"I've contributed fixes and design feedback to the Actix Web ecosystem, and I set the standards our company follows for Rust web services.",Actix Web,Expert
+"Honestly, I've worked with R for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on statistical analysis gets done across our products.",R,Expert
+"In short, I've shaped how our organisation approaches server administration with Linux, and I regularly review and mentor architects on the most difficult cases.",Linux,Expert
+"Realistically, I regularly take on the complex AWS CDK work on my team, including infrastructure as code, and make technical decisions without needing sign-off.",AWS CDK,Advanced
+"Honestly, I've been using SQL professionally for a while. Everyday work on reporting queries is fine, but I'm still learning how the more advanced features fit together.",SQL,Confirmed
+"Honestly, I've used Pandas on a real project for tabular data wrangling and can handle standard tasks myself. For anything unusual I check with a senior colleague.",Pandas,Confirmed
+"On my current team I take on regular Nginx work involving reverse proxy setups. I'm trusted with normal tickets, though big design choices are made by others.",Nginx,Confirmed
+"Overall, I often review Svelte changes from teammates and own the technical design of reactive interfaces in my projects. I rarely get stuck for long.",Svelte,Advanced
+"At the moment, I've got a decent grasp of CSS from a real project. I handle the usual page layouts tasks and learn something new from each code review.",CSS,Confirmed
+I can work independently on well-defined jQuery tasks. Architecture and trickier legacy page scripting problems still go to someone more experienced. I'm keen to grow into more complex work.,jQuery,Confirmed
+"Realistically, I can work independently on well-defined Prisma tasks. Architecture and trickier database access layers problems still go to someone more experienced.",Prisma,Confirmed
+"Overall, I understand Power BI at a level where I can explain why it behaves the way it does, not just how to use it. I advise on business dashboards for several teams. I keep the team's standards up to date.",Power BI,Expert
+I'm comfortable enough with C to deliver embedded utilities on my own; for performance tuning or unusual setups I ask for a second opinion. I'm still learning the deeper parts.,C,Confirmed
+I've got a decent grasp of PowerShell from a real project. I handle the usual Windows automation scripts tasks and learn something new from each code review.,PowerShell,Confirmed
+"To be fair, I've only just started with GitLab CI. I can follow a tutorial on build pipelines, but I haven't built anything real yet.",GitLab CI,Junior
+"Realistically, my Tableau work covers architecture, tuning and troubleshooting for interactive visualizations. I make the calls and take responsibility for the outcome. I've seen most of the usual failure modes.",Tableau,Advanced
+"To be fair, I've shaped how our organisation approaches Windows automation scripts with PowerShell, and I regularly review and mentor architects on the most difficult cases.",PowerShell,Expert
+"So far I've only used Tailwind CSS in a bootcamp setting. Toy examples for utility-first styling work, but a real project feels out of reach.",Tailwind CSS,Junior
+"Realistically, I'm a beginner with Unreal Engine. When I work on 3D game levels I mostly copy patterns from the docs without fully knowing why they work. I lean on the docs constantly.",Unreal Engine,Junior
+"I'd describe my React Native level as competent but not yet seasoned. I've delivered mobile app features for a client, and I'm still gaining confidence with edge cases. I'm keen to grow into more complex work.",React Native,Confirmed
+"In short, I'm comfortable enough with C# to deliver .NET applications on my own; for performance tuning or unusual setups I ask for a second opinion. I'm still learning the deeper parts.",C#,Confirmed
+I'm comfortable enough with TypeScript to deliver typed front-end code on my own; for performance tuning or unusual setups I ask for a second opinion. Code review helps me improve.,TypeScript,Confirmed
+"I regularly take on the complex Firebase work on my team, including mobile app backends, and make technical decisions without needing sign-off.",Firebase,Advanced
+"Overall, my knowledge of GraphQL is mostly theoretical; I've tried a handful of API schemas samples and that's it. Still very early days.",GraphQL,Junior
+"I understand Google Cloud Run at a level where I can explain why it behaves the way it does, not just how to use it. I advise on containerized services for several teams.",Google Cloud Run,Expert
+"At the moment, my first production work with FastAPI was on Python APIs. It went fine, and I'm now picking up similar tasks with only light supervision.",FastAPI,Confirmed
+"Overall, I can build and maintain simple document stores in MongoDB by myself. When requirements get complicated, I like to talk it through with a lead first.",MongoDB,Confirmed
+"On my current team I take on regular Hibernate work involving Java persistence layers. I'm trusted with normal tickets, though big design choices are made by others.",Hibernate,Confirmed
+"I'm the final escalation point for PHP. I've redesigned server-side web pages for scale, trained dozens of developers and set best practice for the whole department.",PHP,Expert
+"Realistically, I can build and maintain simple systems programming in Rust by myself. When requirements get complicated, I like to talk it through with a lead first. I'm still learning the deeper parts.",Rust,Confirmed
+I've shipped a few features with PHP in a team setting. I still need occasional guidance on design decisions. I'm keen to grow into more complex work.,PHP,Confirmed
+"Overall, I've built and rescued C systems of every size, including mission-critical embedded utilities. Teams across the company rely on my judgement. People trust my call on the tricky decisions.",C,Expert
+I'm just picking up JavaScript. I'd need a lot of help before I could contribute to a real codebase.,JavaScript,Junior
+"I'm learning Vite at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Vite,Junior
+Colleagues bring me their tough Playwright questions. I've built and maintained several substantial end-to-end browser tests setups on my own.,Playwright,Advanced
+"To be fair, I've built and rescued GitHub Actions systems of every size, including mission-critical CI workflows. Teams across the company rely on my judgement. I enjoy passing that knowledge on.",GitHub Actions,Expert
+Right now I'm working through HTML exercises on semantic page markup. Nobody has reviewed any of my code yet.,HTML,Junior
+"Realistically, I've spent several years deep in C++. I can untangle legacy performance-sensitive code, plan a migration and deliver it without supervision. I'm happy to help teammates when they ask.",C++,Advanced
+"Realistically, my CSS experience is limited to a course and a couple of practice exercises around page layouts.",CSS,Junior
+"Realistically, I know what Rails is for and can run the basics, but Ruby web apps in a team setting is unfamiliar territory. I lean on the docs constantly.",Rails,Junior
+"Realistically, I regularly take on the complex Three.js work on my team, including 3D web scenes, and make technical decisions without needing sign-off.",Three.js,Advanced
+"JavaScript came up in a university module, so I've seen work on browser scripting but never done it for real. I lean on the docs constantly.",JavaScript,Junior
+I've got a decent grasp of Java from a real project. I handle the usual enterprise services tasks and learn something new from each code review.,Java,Confirmed
+"Over several large projects with Rust I've led the design of systems programming. I rarely need outside help, even when requirements are messy.",Rust,Advanced
+"At the moment, I've worked with Dart on two or three projects. Standard work on cross-platform apps doesn't worry me, and my reviews rarely turn up big problems.",Dart,Confirmed
+"At the moment, I've solved some nasty Spring Boot issues around Java microservices and can walk teammates through the reasoning behind each fix. I'm happy to help teammates when they ask.",Spring Boot,Advanced
+"In short, I've watched a few NestJS videos and followed along with some structured Node APIs samples. Nothing production-grade yet.",NestJS,Junior
+"With Symfony I can take an ambiguous PHP back-office apps problem, pick a sound approach and see it through to production by myself.",Symfony,Advanced
+"To be fair, I've contributed fixes and design feedback to the SQLite ecosystem, and I set the standards our company follows for local data storage. I keep the team's standards up to date.",SQLite,Expert
+"Overall, I've contributed fixes and design feedback to the Jenkins ecosystem, and I set the standards our company follows for automated build jobs. People trust my call on the tricky decisions.",Jenkins,Expert
+Right now I'm working through CSS exercises on page layouts. Nobody has reviewed any of my code yet. Still very early days.,CSS,Junior
+Unity is one of my strongest tools. I've optimised real-time 3D prototypes in production and can justify the tradeoffs I chose. I'm happy to help teammates when they ask.,Unity,Advanced
+"I've never used GitLab CI outside of learning material, and anything beyond simple build pipelines would stump me. Still very early days.",GitLab CI,Junior
+I've solved some nasty React Native issues around mobile app features and can walk teammates through the reasoning behind each fix.,React Native,Advanced
+"At the moment, I've shipped a few features with Go in a team setting. I still need occasional guidance on design decisions.",Go,Confirmed
+I've solved some nasty Redis issues around caching layers and can walk teammates through the reasoning behind each fix. I've seen most of the usual failure modes.,Redis,Advanced
+I know Tableau down to its internals. I've designed interactive visualizations at scale and I'm the go-to person for the hardest problems across the organisation. I keep the team's standards up to date.,Tableau,Expert
+"At the moment, I've shipped a few features with Flask in a team setting. I still need occasional guidance on design decisions.",Flask,Confirmed
+"In short, I've built and rescued SwiftUI systems of every size, including mission-critical Apple app interfaces. Teams across the company rely on my judgement.",SwiftUI,Expert
+"At the moment, I'm the final escalation point for React Native. I've redesigned mobile app features for scale, trained dozens of developers and set best practice for the whole department.",React Native,Expert
+"At the moment, my Redis work covers architecture, tuning and troubleshooting for caching layers. I make the calls and take responsibility for the outcome. I'm happy to help teammates when they ask.",Redis,Advanced
+"To be fair, I've just begun experimenting with Next.js in my spare time. I can't yet tell good practice from bad when it comes to server-rendered web apps. Still very early days.",Next.js,Junior
+"In short, I'm just picking up C++. I'd need a lot of help before I could contribute to a real codebase.",C++,Junior
+"I'm very comfortable owning pytest work end to end, from design to deployment. Problems around Python test suites that stump others are usually manageable for me. I rarely get stuck for long.",pytest,Advanced
+"Honestly, I've spent several years deep in PostgreSQL. I can untangle legacy relational schemas, plan a migration and deliver it without supervision. I've seen most of the usual failure modes.",PostgreSQL,Advanced
+I can work independently on well-defined Kubernetes tasks. Architecture and trickier cluster deployments problems still go to someone more experienced.,Kubernetes,Confirmed
+Colleagues bring me their tough Terraform questions. I've built and maintained several substantial cloud infrastructure setups on my own. I'm happy to help teammates when they ask.,Terraform,Advanced
+"In short, my Actix Web skills are solid for everyday work. I handle Rust web services reliably, though I wouldn't call myself deeply experienced. I'm still learning the deeper parts.",Actix Web,Confirmed
+"To be fair, I know Unreal Engine down to its internals. I've designed 3D game levels at scale and I'm the go-to person for the hardest problems across the organisation.",Unreal Engine,Expert
+"My Go work covers architecture, tuning and troubleshooting for concurrent services. I make the calls and take responsibility for the outcome.",Go,Advanced
+New to Django here. I get stuck quickly when an example for database-backed web apps differs from what the tutorial showed.,Django,Junior
+"To be fair, I've worked with Python for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on automation and data scripts gets done across our products.",Python,Expert
+"At the moment, I've built and rescued Playwright systems of every size, including mission-critical end-to-end browser tests. Teams across the company rely on my judgement.",Playwright,Expert
+"After many years with Google Cloud Run, I can predict where containerized services will break before a line is written, and I've defined our architecture guidelines. I keep the team's standards up to date.",Google Cloud Run,Expert
+"When something odd happens with Firebase, people ask me. I've led several large-scale mobile app backends efforts and I teach the advanced material to newcomers.",Firebase,Expert
+"I'm the strongest Kafka developer on my project. I can plan, build and debug event streaming without anyone looking over my shoulder.",Kafka,Advanced
+"At the moment, I'm recognised internally as the authority on Pandas. I lead design reviews for tabular data wrangling and run workshops on the deep details. People trust my call on the tricky decisions.",Pandas,Expert
+"In short, I've solved some nasty WebAssembly issues around browser-side modules and can walk teammates through the reasoning behind each fix. I'm happy to help teammates when they ask.",WebAssembly,Advanced
+"SQLite came up in a university module, so I've seen work on local data storage but never done it for real.",SQLite,Junior
+"I've gone well beyond the basics of TensorFlow: I handle machine learning pipelines, performance problems and production failures independently.",TensorFlow,Advanced
+"So far I've only used Sass in a bootcamp setting. Toy examples for stylesheet architecture work, but a real project feels out of reach.",Sass,Junior
+"Overall, I've just begun experimenting with React Native in my spare time. I can't yet tell good practice from bad when it comes to mobile app features. Still very early days.",React Native,Junior
+"To be fair, my CSS expertise goes beyond day-to-day delivery: I audit other teams' page layouts, define patterns and mentor tech leads on the subtle details. I keep the team's standards up to date.",CSS,Expert
+"Honestly, I've worked with SQL for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on reporting queries gets done across our products.",SQL,Expert
+"Honestly, I've gone well beyond the basics of Node.js: I handle backend services, performance problems and production failures independently. I'm happy to help teammates when they ask.",Node.js,Advanced
+"After many years with Three.js, I can predict where 3D web scenes will break before a line is written, and I've defined our architecture guidelines.",Three.js,Expert
+"At the moment, I train and mentor engineers on Vitest. When something around JavaScript unit tests fails in ways nobody else understands, I'm usually the one called in.",Vitest,Expert
+"Honestly, I understand AWS CDK at a level where I can explain why it behaves the way it does, not just how to use it. I advise on infrastructure as code for several teams.",AWS CDK,Expert
+I often review Power BI changes from teammates and own the technical design of business dashboards in my projects. I'm happy to help teammates when they ask.,Power BI,Advanced
+"Realistically, my Unity expertise goes beyond day-to-day delivery: I audit other teams' real-time 3D prototypes, define patterns and mentor tech leads on the subtle details.",Unity,Expert
+"In short, I'm recognised internally as the authority on Bash. I lead design reviews for shell scripting and run workshops on the deep details. I enjoy passing that knowledge on.",Bash,Expert
+"I can build and maintain simple containerized services in Google Cloud Run by myself. When requirements get complicated, I like to talk it through with a lead first. Code review helps me improve.",Google Cloud Run,Confirmed
+"In short, my React experience is limited to a course and a couple of practice exercises around component-based UIs.",React,Junior
+I know scikit-learn well enough to choose between approaches for classical ML models and explain why. Production incidents rarely catch me off guard.,scikit-learn,Advanced
+"To be fair, I've just begun experimenting with Gin in my spare time. I can't yet tell good practice from bad when it comes to Go HTTP services.",Gin,Junior
+New to Entity Framework Core here. I get stuck quickly when an example for .NET data access differs from what the tutorial showed.,Entity Framework Core,Junior
+"I recognise the core Elasticsearch terminology and can run examples, though I've never been responsible for search indexes in a live project.",Elasticsearch,Junior
+"Over several large projects with Tailwind CSS I've led the design of utility-first styling. I rarely need outside help, even when requirements are messy. I've seen most of the usual failure modes.",Tailwind CSS,Advanced
+Python is one of my strongest tools. I've optimised automation and data scripts in production and can justify the tradeoffs I chose. I rarely get stuck for long.,Python,Advanced
+"In short, I built one small Git demo for branching workflows by following a guide. That's the extent of my experience.",Git,Junior
+I've worked with NestJS for years and can design structured Node APIs from scratch. I know the common pitfalls and how to avoid them. I rarely get stuck for long.,NestJS,Advanced
+"Realistically, I know Spark well enough to choose between approaches for large-scale data processing and explain why. Production incidents rarely catch me off guard.",Spark,Advanced
+"In short, I've contributed fixes and design feedback to the scikit-learn ecosystem, and I set the standards our company follows for classical ML models.",scikit-learn,Expert
+"After many years with CSS, I can predict where page layouts will break before a line is written, and I've defined our architecture guidelines.",CSS,Expert
+"Honestly, I'm comfortable enough with Julia to deliver numerical simulations on my own; for performance tuning or unusual setups I ask for a second opinion.",Julia,Confirmed
+"Realistically, I've used Cypress on a real project for browser test automation and can handle standard tasks myself. For anything unusual I check with a senior colleague.",Cypress,Confirmed
+I'm just picking up C#. I'd need a lot of help before I could contribute to a real codebase. I lean on the docs constantly.,C#,Junior
+"Realistically, I regularly take on the complex Firebase work on my team, including mobile app backends, and make technical decisions without needing sign-off.",Firebase,Advanced
+Other senior engineers consult me on Webpack. I've shaped long-term strategy for bundling configuration and coach people until they can handle it alone.,Webpack,Expert
+"On my current team I take on regular Vite work involving front-end tooling. I'm trusted with normal tickets, though big design choices are made by others. Code review helps me improve.",Vite,Confirmed
+"I'm the strongest GitLab CI developer on my project. I can plan, build and debug build pipelines without anyone looking over my shoulder.",GitLab CI,Advanced
+Other senior engineers consult me on Kubernetes. I've shaped long-term strategy for cluster deployments and coach people until they can handle it alone. I keep the team's standards up to date.,Kubernetes,Expert
+"In short, I'm learning Pandas at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own. Still very early days.",Pandas,Junior
+New to Scala here. I get stuck quickly when an example for functional backend services differs from what the tutorial showed. I lean on the docs constantly.,Scala,Junior
+"Overall, I've gone well beyond the basics of Scala: I handle functional backend services, performance problems and production failures independently.",Scala,Advanced
+"Over several large projects with Rails I've led the design of Ruby web apps. I rarely need outside help, even when requirements are messy.",Rails,Advanced
+"Overall, I know Elasticsearch well enough to choose between approaches for search indexes and explain why. Production incidents rarely catch me off guard.",Elasticsearch,Advanced
+"To be fair, I have working experience with Actix Web: I follow existing conventions, fix common bugs and extend Rust web services without hand-holding. I'm still learning the deeper parts.",Actix Web,Confirmed
+I know Godot well enough to choose between approaches for 2D game scenes and explain why. Production incidents rarely catch me off guard.,Godot,Advanced
+I know MongoDB well enough to choose between approaches for document stores and explain why. Production incidents rarely catch me off guard.,MongoDB,Advanced
+"After about a year with Django, I can pick up a typical ticket involving database-backed web apps and finish it without much supervision.",Django,Confirmed
+I'm comfortable enough with Laravel to deliver PHP applications on my own; for performance tuning or unusual setups I ask for a second opinion.,Laravel,Confirmed
+"When something odd happens with Scala, people ask me. I've led several large-scale functional backend services efforts and I teach the advanced material to newcomers. People trust my call on the tricky decisions.",Scala,Expert
+"When something odd happens with Kubernetes, people ask me. I've led several large-scale cluster deployments efforts and I teach the advanced material to newcomers.",Kubernetes,Expert
+Colleagues bring me their tough Unreal Engine questions. I've built and maintained several substantial 3D game levels setups on my own. I rarely get stuck for long.,Unreal Engine,Advanced
+"Realistically, I have working experience with AWS Lambda: I follow existing conventions, fix common bugs and extend serverless functions without hand-holding. I'm still learning the deeper parts.",AWS Lambda,Confirmed
+"Realistically, my Symfony skills are solid for everyday work. I handle PHP back-office apps reliably, though I wouldn't call myself deeply experienced.",Symfony,Confirmed
+"So far I've only used Ansible in a bootcamp setting. Toy examples for server automation work, but a real project feels out of reach.",Ansible,Junior
+"After about a year with GitLab CI, I can pick up a typical ticket involving build pipelines and finish it without much supervision.",GitLab CI,Confirmed
+"My Nginx skills are solid for everyday work. I handle reverse proxy setups reliably, though I wouldn't call myself deeply experienced.",Nginx,Confirmed
+"Realistically, I've worked with JavaScript on two or three projects. Standard work on browser scripting doesn't worry me, and my reviews rarely turn up big problems.",JavaScript,Confirmed
+"When something odd happens with Express, people ask me. I've led several large-scale small web APIs efforts and I teach the advanced material to newcomers. I keep the team's standards up to date.",Express,Expert
+"To be fair, I've spoken publicly about Gin and written internal guides on Go HTTP services. The hardest cases in our company end up on my desk. People trust my call on the tricky decisions.",Gin,Expert
+"In short, I've only just started with dbt. I can follow a tutorial on SQL data transformations, but I haven't built anything real yet. I lean on the docs constantly.",dbt,Junior
+"In short, I'm the final escalation point for Prisma. I've redesigned database access layers for scale, trained dozens of developers and set best practice for the whole department. I keep the team's standards up to date.",Prisma,Expert
+Tableau is still new to me. I understand the basic ideas behind interactive visualizations but need step-by-step instructions to get anywhere.,Tableau,Junior
+"When something odd happens with Svelte, people ask me. I've led several large-scale reactive interfaces efforts and I teach the advanced material to newcomers.",Svelte,Expert
+"At the moment, I've shaped how our organisation approaches legacy page scripting with jQuery, and I regularly review and mentor architects on the most difficult cases. I keep the team's standards up to date.",jQuery,Expert
+Other senior engineers consult me on Bootstrap. I've shaped long-term strategy for responsive pages and coach people until they can handle it alone. I keep the team's standards up to date.,Bootstrap,Expert
+"Realistically, I know Jetpack Compose down to its internals. I've designed Android UI screens at scale and I'm the go-to person for the hardest problems across the organisation.",Jetpack Compose,Expert
+My Vue experience is limited to a course and a couple of practice exercises around front-end components.,Vue,Junior
+"Overall, I'm a beginner with AWS CDK. When I work on infrastructure as code I mostly copy patterns from the docs without fully knowing why they work. I'm keen to learn more.",AWS CDK,Junior
+"I understand Node.js at a level where I can explain why it behaves the way it does, not just how to use it. I advise on backend services for several teams.",Node.js,Expert
+"Realistically, I'd describe my Three.js level as competent but not yet seasoned. I've delivered 3D web scenes for a client, and I'm still gaining confidence with edge cases. I'm keen to grow into more complex work.",Three.js,Confirmed
+"I've gone well beyond the basics of SQL: I handle reporting queries, performance problems and production failures independently. I rarely get stuck for long.",SQL,Advanced
+"To be fair, I've worked with GraphQL for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on API schemas gets done across our products. I keep the team's standards up to date.",GraphQL,Expert
+Other senior engineers consult me on Vue. I've shaped long-term strategy for front-end components and coach people until they can handle it alone. I enjoy passing that knowledge on.,Vue,Expert
+"At the moment, I've solved some nasty Pandas issues around tabular data wrangling and can walk teammates through the reasoning behind each fix. I've seen most of the usual failure modes.",Pandas,Advanced
+"Honestly, I've moved past tutorials with Ansible and contributed to production code for server automation. Debugging obscure issues is still a stretch for me. I'm keen to grow into more complex work.",Ansible,Confirmed
+"Overall, I've used Sass on a real project for stylesheet architecture and can handle standard tasks myself. For anything unusual I check with a senior colleague.",Sass,Confirmed
+"Realistically, I train and mentor engineers on Redis. When something around caching layers fails in ways nobody else understands, I'm usually the one called in.",Redis,Expert
+"Overall, I know what Docker is for and can run the basics, but containerized builds in a team setting is unfamiliar territory. I lean on the docs constantly.",Docker,Junior
+"Realistically, I understand Rust at a level where I can explain why it behaves the way it does, not just how to use it. I advise on systems programming for several teams. I enjoy passing that knowledge on.",Rust,Expert
+"Overall, I know Bootstrap down to its internals. I've designed responsive pages at scale and I'm the go-to person for the hardest problems across the organisation.",Bootstrap,Expert
+"My first production work with C# was on .NET applications. It went fine, and I'm now picking up similar tasks with only light supervision.",C#,Confirmed
+"At the moment, I've solved some nasty Git issues around branching workflows and can walk teammates through the reasoning behind each fix. I'm happy to help teammates when they ask.",Git,Advanced
+I'm a beginner with GitHub Actions. When I work on CI workflows I mostly copy patterns from the docs without fully knowing why they work. I lean on the docs constantly.,GitHub Actions,Junior
+"Honestly, I've spent several years deep in React. I can untangle legacy component-based UIs, plan a migration and deliver it without supervision.",React,Advanced
+"At the moment, I've shipped a few features with ASP.NET Core in a team setting. I still need occasional guidance on design decisions. I'm still learning the deeper parts.",ASP.NET Core,Confirmed
+"Docker is part of my day-to-day work now. I'm comfortable with routine containerized builds, but I'm still building depth.",Docker,Confirmed
+"Overall, I have working experience with Express: I follow existing conventions, fix common bugs and extend small web APIs without hand-holding.",Express,Confirmed
+"Honestly, I can diagnose difficult Angular problems quickly and review other people's enterprise front ends with confidence.",Angular,Advanced
+Colleagues bring me their tough ASP.NET Core questions. I've built and maintained several substantial web backends setups on my own. I've seen most of the usual failure modes.,ASP.NET Core,Advanced
+"Overall, I'm the final escalation point for jQuery. I've redesigned legacy page scripting for scale, trained dozens of developers and set best practice for the whole department. People trust my call on the tricky decisions.",jQuery,Expert
+Other senior engineers consult me on D3.js. I've shaped long-term strategy for custom charts and coach people until they can handle it alone.,D3.js,Expert
+"Honestly, I've spent several years deep in SQL. I can untangle legacy reporting queries, plan a migration and deliver it without supervision.",SQL,Advanced
+I've worked with HTML for years and can design semantic page markup from scratch. I know the common pitfalls and how to avoid them. I've seen most of the usual failure modes.,HTML,Advanced
+"To be fair, I can read simple pytest code and tweak examples, but I've never shipped anything with it.",pytest,Junior
+"After many years with Git, I can predict where branching workflows will break before a line is written, and I've defined our architecture guidelines. I keep the team's standards up to date.",Git,Expert
+"At the moment, I've worked with Pandas on two or three projects. Standard work on tabular data wrangling doesn't worry me, and my reviews rarely turn up big problems. I'm still learning the deeper parts.",Pandas,Confirmed
+"Over several large projects with Bash I've led the design of shell scripting. I rarely need outside help, even when requirements are messy. I've seen most of the usual failure modes.",Bash,Advanced
+"So far I've only used Unity in a bootcamp setting. Toy examples for real-time 3D prototypes work, but a real project feels out of reach. I'm keen to learn more.",Unity,Junior
+New to Svelte here. I get stuck quickly when an example for reactive interfaces differs from what the tutorial showed.,Svelte,Junior
+"I'm very comfortable owning NumPy work end to end, from design to deployment. Problems around numerical computing that stump others are usually manageable for me.",NumPy,Advanced
+"Realistically, I can work independently on well-defined Webpack tasks. Architecture and trickier bundling configuration problems still go to someone more experienced. I'm keen to grow into more complex work.",Webpack,Confirmed
+"With Supabase I can take an ambiguous hosted Postgres backends problem, pick a sound approach and see it through to production by myself.",Supabase,Advanced
+"At the moment, my Playwright expertise goes beyond day-to-day delivery: I audit other teams' end-to-end browser tests, define patterns and mentor tech leads on the subtle details.",Playwright,Expert
+"At the moment, I've spent several years deep in Vitest. I can untangle legacy JavaScript unit tests, plan a migration and deliver it without supervision. I've seen most of the usual failure modes.",Vitest,Advanced
+"After many years with PyTorch, I can predict where deep learning models will break before a line is written, and I've defined our architecture guidelines. I enjoy passing that knowledge on.",PyTorch,Expert
+New to Unreal Engine here. I get stuck quickly when an example for 3D game levels differs from what the tutorial showed. I'm keen to learn more.,Unreal Engine,Junior
+"In short, I'm the strongest MySQL developer on my project. I can plan, build and debug relational databases without anyone looking over my shoulder.",MySQL,Advanced
+"Over several large projects with Vite I've led the design of front-end tooling. I rarely need outside help, even when requirements are messy.",Vite,Advanced
+"Overall, I know Power BI down to its internals. I've designed business dashboards at scale and I'm the go-to person for the hardest problems across the organisation.",Power BI,Expert
+"I've only just started with Ruby. I can follow a tutorial on scripting and web tooling, but I haven't built anything real yet.",Ruby,Junior
+I built one small PostgreSQL demo for relational schemas by following a guide. That's the extent of my experience. I'm keen to learn more.,PostgreSQL,Junior
+"I have working experience with D3.js: I follow existing conventions, fix common bugs and extend custom charts without hand-holding. Code review helps me improve.",D3.js,Confirmed
+"In short, I know what Jetpack Compose is for and can run the basics, but Android UI screens in a team setting is unfamiliar territory.",Jetpack Compose,Junior
+"To be fair, I know what Webpack is for and can run the basics, but bundling configuration in a team setting is unfamiliar territory.",Webpack,Junior
+"Kotlin came up in a university module, so I've seen work on Android and backend apps but never done it for real. I'm keen to learn more.",Kotlin,Junior
+"Nginx came up in a university module, so I've seen work on reverse proxy setups but never done it for real. Still very early days.",Nginx,Junior
+"At the moment, I built one small Go demo for concurrent services by following a guide. That's the extent of my experience. I lean on the docs constantly.",Go,Junior
+Colleagues bring me their tough Go questions. I've built and maintained several substantial concurrent services setups on my own.,Go,Advanced
+"In short, I know Airflow down to its internals. I've designed workflow orchestration at scale and I'm the go-to person for the hardest problems across the organisation.",Airflow,Expert
+I'm recognised internally as the authority on NumPy. I lead design reviews for numerical computing and run workshops on the deep details. I enjoy passing that knowledge on.,NumPy,Expert
+"I've built and rescued Rails systems of every size, including mission-critical Ruby web apps. Teams across the company rely on my judgement. People trust my call on the tricky decisions.",Rails,Expert
+"Honestly, my first production work with MySQL was on relational databases. It went fine, and I'm now picking up similar tasks with only light supervision. I'm still learning the deeper parts.",MySQL,Confirmed
+I know TensorFlow down to its internals. I've designed machine learning pipelines at scale and I'm the go-to person for the hardest problems across the organisation.,TensorFlow,Expert
+"Honestly, I'm the final escalation point for WebAssembly. I've redesigned browser-side modules for scale, trained dozens of developers and set best practice for the whole department. I enjoy passing that knowledge on.",WebAssembly,Expert
+"In short, I've shaped how our organisation approaches server-side web pages with PHP, and I regularly review and mentor architects on the most difficult cases.",PHP,Expert
+"To be fair, I can diagnose difficult Python problems quickly and review other people's automation and data scripts with confidence.",Python,Advanced
+I often review SQLite changes from teammates and own the technical design of local data storage in my projects. I'm happy to help teammates when they ask.,SQLite,Advanced
+"To be fair, I'm learning Three.js at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own. I lean on the docs constantly.",Three.js,Junior
+"To be fair, I've never used Java outside of learning material, and anything beyond simple enterprise services would stump me. I lean on the docs constantly.",Java,Junior
+I know AWS Lambda well enough to choose between approaches for serverless functions and explain why. Production incidents rarely catch me off guard.,AWS Lambda,Advanced
+"Honestly, I've moved past tutorials with GitLab CI and contributed to production code for build pipelines. Debugging obscure issues is still a stretch for me. I'm still learning the deeper parts.",GitLab CI,Confirmed
+"With jQuery I can take an ambiguous legacy page scripting problem, pick a sound approach and see it through to production by myself. I rarely get stuck for long.",jQuery,Advanced
+"Overall, I'm very comfortable owning Jenkins work end to end, from design to deployment. Problems around automated build jobs that stump others are usually manageable for me. I've seen most of the usual failure modes.",Jenkins,Advanced
+I can diagnose difficult FastAPI problems quickly and review other people's Python APIs with confidence. I'm happy to help teammates when they ask.,FastAPI,Advanced
+Colleagues bring me their tough Vite questions. I've built and maintained several substantial front-end tooling setups on my own.,Vite,Advanced
+"On my current team I take on regular Nuxt work involving Vue-based sites. I'm trusted with normal tickets, though big design choices are made by others.",Nuxt,Confirmed
+Google Cloud Run is still new to me. I understand the basic ideas behind containerized services but need step-by-step instructions to get anywhere.,Google Cloud Run,Junior
+"After about a year with Redis, I can pick up a typical ticket involving caching layers and finish it without much supervision. Code review helps me improve.",Redis,Confirmed
+"After about a year with Elasticsearch, I can pick up a typical ticket involving search indexes and finish it without much supervision. I'm keen to grow into more complex work.",Elasticsearch,Confirmed
+"Realistically, I train and mentor engineers on Kafka. When something around event streaming fails in ways nobody else understands, I'm usually the one called in.",Kafka,Expert
+"At the moment, I've shaped how our organisation approaches Rust web services with Actix Web, and I regularly review and mentor architects on the most difficult cases.",Actix Web,Expert
+"Realistically, I understand Jetpack Compose at a level where I can explain why it behaves the way it does, not just how to use it. I advise on Android UI screens for several teams. I keep the team's standards up to date.",Jetpack Compose,Expert
+"I've worked with Playwright on two or three projects. Standard work on end-to-end browser tests doesn't worry me, and my reviews rarely turn up big problems.",Playwright,Confirmed
+SQLite is still new to me. I understand the basic ideas behind local data storage but need step-by-step instructions to get anywhere.,SQLite,Junior
+"After many years with Supabase, I can predict where hosted Postgres backends will break before a line is written, and I've defined our architecture guidelines.",Supabase,Expert
+"Realistically, I've solved some nasty MongoDB issues around document stores and can walk teammates through the reasoning behind each fix.",MongoDB,Advanced
+"Overall, I built one small C demo for embedded utilities by following a guide. That's the extent of my experience.",C,Junior
+"To be fair, I have working experience with Git: I follow existing conventions, fix common bugs and extend branching workflows without hand-holding. I'm keen to grow into more complex work.",Git,Confirmed
+"I train and mentor engineers on Dart. When something around cross-platform apps fails in ways nobody else understands, I'm usually the one called in. I keep the team's standards up to date.",Dart,Expert
+"Honestly, my NumPy expertise goes beyond day-to-day delivery: I audit other teams' numerical computing, define patterns and mentor tech leads on the subtle details.",NumPy,Expert
+"In short, I've never used R outside of learning material, and anything beyond simple statistical analysis would stump me. Still very early days.",R,Junior
+Colleagues bring me their tough Power BI questions. I've built and maintained several substantial business dashboards setups on my own. I'm happy to help teammates when they ask.,Power BI,Advanced
+"I've only just started with Actix Web. I can follow a tutorial on Rust web services, but I haven't built anything real yet.",Actix Web,Junior
+"Honestly, I recognise the core PHP terminology and can run examples, though I've never been responsible for server-side web pages in a live project.",PHP,Junior
+"Honestly, I regularly take on the complex C# work on my team, including .NET applications, and make technical decisions without needing sign-off.",C#,Advanced
+"When something odd happens with RabbitMQ, people ask me. I've led several large-scale message queues efforts and I teach the advanced material to newcomers. People trust my call on the tricky decisions.",RabbitMQ,Expert
+"Tableau is part of my day-to-day work now. I'm comfortable with routine interactive visualizations, but I'm still building depth. I'm keen to grow into more complex work.",Tableau,Confirmed
+"So far I've only used AWS Lambda in a bootcamp setting. Toy examples for serverless functions work, but a real project feels out of reach. I lean on the docs constantly.",AWS Lambda,Junior
+Right now I'm working through ASP.NET Core exercises on web backends. Nobody has reviewed any of my code yet. I lean on the docs constantly.,ASP.NET Core,Junior
+Colleagues bring me their tough Flutter questions. I've built and maintained several substantial mobile UI work setups on my own.,Flutter,Advanced
+"In short, I recognise the core Spark terminology and can run examples, though I've never been responsible for large-scale data processing in a live project.",Spark,Junior
+"Realistically, I've worked with Dart for most of my career and know its sharp edges thoroughly. I'm the one who decides how work on cross-platform apps gets done across our products.",Dart,Expert
+"At the moment, I've shipped a few features with Linux in a team setting. I still need occasional guidance on design decisions.",Linux,Confirmed
+"When something odd happens with Swift, people ask me. I've led several large-scale iOS apps efforts and I teach the advanced material to newcomers. I enjoy passing that knowledge on.",Swift,Expert
+Colleagues bring me their tough Git questions. I've built and maintained several substantial branching workflows setups on my own.,Git,Advanced
+"Overall, I'd describe my SwiftUI level as competent but not yet seasoned. I've delivered Apple app interfaces for a client, and I'm still gaining confidence with edge cases. Code review helps me improve.",SwiftUI,Confirmed
+"To be fair, I train and mentor engineers on Nuxt. When something around Vue-based sites fails in ways nobody else understands, I'm usually the one called in.",Nuxt,Expert
+"After about a year with Jenkins, I can pick up a typical ticket involving automated build jobs and finish it without much supervision. Code review helps me improve.",Jenkins,Confirmed
+"Honestly, I'm a beginner with SwiftUI. When I work on Apple app interfaces I mostly copy patterns from the docs without fully knowing why they work. Still very early days.",SwiftUI,Junior
+"In short, I've only just started with WebAssembly. I can follow a tutorial on browser-side modules, but I haven't built anything real yet. Still very early days.",WebAssembly,Junior
+"At the moment, I'm the final escalation point for Godot. I've redesigned 2D game scenes for scale, trained dozens of developers and set best practice for the whole department.",Godot,Expert
+"Overall, I have working experience with Kubernetes: I follow existing conventions, fix common bugs and extend cluster deployments without hand-holding. I'm keen to grow into more complex work.",Kubernetes,Confirmed
+"Over several large projects with Prisma I've led the design of database access layers. I rarely need outside help, even when requirements are messy.",Prisma,Advanced
+"At the moment, I've contributed fixes and design feedback to the Airflow ecosystem, and I set the standards our company follows for workflow orchestration.",Airflow,Expert
+"At the moment, I know Julia well enough to choose between approaches for numerical simulations and explain why. Production incidents rarely catch me off guard.",Julia,Advanced
+"After about a year with Rails, I can pick up a typical ticket involving Ruby web apps and finish it without much supervision.",Rails,Confirmed
+"With GitHub Actions I can take an ambiguous CI workflows problem, pick a sound approach and see it through to production by myself.",GitHub Actions,Advanced
+"Realistically, I've contributed fixes and design feedback to the Unity ecosystem, and I set the standards our company follows for real-time 3D prototypes. People trust my call on the tricky decisions.",Unity,Expert
+"Dart is part of my day-to-day work now. I'm comfortable with routine cross-platform apps, but I'm still building depth.",Dart,Confirmed
+"In short, I'd describe my AWS Lambda level as competent but not yet seasoned. I've delivered serverless functions for a client, and I'm still gaining confidence with edge cases.",AWS Lambda,Confirmed
+"To be fair, I often review GraphQL changes from teammates and own the technical design of API schemas in my projects. I'm happy to help teammates when they ask.",GraphQL,Advanced
+"Honestly, I've contributed fixes and design feedback to the PyTorch ecosystem, and I set the standards our company follows for deep learning models. People trust my call on the tricky decisions.",PyTorch,Expert
+"Overall, I have working experience with Flutter: I follow existing conventions, fix common bugs and extend mobile UI work without hand-holding. I'm keen to grow into more complex work.",Flutter,Confirmed
+"I've never used Laravel outside of learning material, and anything beyond simple PHP applications would stump me.",Laravel,Junior
+"In short, I'm a beginner with Nuxt. When I work on Vue-based sites I mostly copy patterns from the docs without fully knowing why they work. Still very early days.",Nuxt,Junior
+"I'm the strongest Godot developer on my project. I can plan, build and debug 2D game scenes without anyone looking over my shoulder.",Godot,Advanced
+"Honestly, I've never used scikit-learn outside of learning material, and anything beyond simple classical ML models would stump me.",scikit-learn,Junior
+"Overall, I regularly take on the complex C work on my team, including embedded utilities, and make technical decisions without needing sign-off.",C,Advanced
+Colleagues bring me their tough Next.js questions. I've built and maintained several substantial server-rendered web apps setups on my own. I rarely get stuck for long.,Next.js,Advanced
+"To be fair, I'm very comfortable owning Azure Functions work end to end, from design to deployment. Problems around serverless endpoints that stump others are usually manageable for me.",Azure Functions,Advanced
+"Overall, I can work independently on well-defined Gin tasks. Architecture and trickier Go HTTP services problems still go to someone more experienced.",Gin,Confirmed
+"Rust is part of my day-to-day work now. I'm comfortable with routine systems programming, but I'm still building depth. Code review helps me improve.",Rust,Confirmed
+I'm comfortable enough with GraphQL to deliver API schemas on my own; for performance tuning or unusual setups I ask for a second opinion.,GraphQL,Confirmed
+Vue is still new to me. I understand the basic ideas behind front-end components but need step-by-step instructions to get anywhere.,Vue,Junior
+"To be fair, I've spoken publicly about Spring Boot and written internal guides on Java microservices. The hardest cases in our company end up on my desk. I keep the team's standards up to date.",Spring Boot,Expert
+"Honestly, I'm a beginner with Firebase. When I work on mobile app backends I mostly copy patterns from the docs without fully knowing why they work.",Firebase,Junior
+"I recognise the core Java terminology and can run examples, though I've never been responsible for enterprise services in a live project.",Java,Junior
+"Overall, I've just begun experimenting with Bootstrap in my spare time. I can't yet tell good practice from bad when it comes to responsive pages. I lean on the docs constantly.",Bootstrap,Junior
+"To be fair, my first production work with Vitest was on JavaScript unit tests. It went fine, and I'm now picking up similar tasks with only light supervision. I'm still learning the deeper parts.",Vitest,Confirmed
+"I've contributed fixes and design feedback to the Entity Framework Core ecosystem, and I set the standards our company follows for .NET data access.",Entity Framework Core,Expert
+"Honestly, I built one small MongoDB demo for document stores by following a guide. That's the extent of my experience.",MongoDB,Junior
+"I'm the strongest Jest developer on my project. I can plan, build and debug JavaScript tests without anyone looking over my shoulder. I've seen most of the usual failure modes.",Jest,Advanced
+"Ruby came up in a university module, so I've seen work on scripting and web tooling but never done it for real. I lean on the docs constantly.",Ruby,Junior
+"Overall, I've used Terraform on a real project for cloud infrastructure and can handle standard tasks myself. For anything unusual I check with a senior colleague.",Terraform,Confirmed
+"In short, I've never used Gin outside of learning material, and anything beyond simple Go HTTP services would stump me.",Gin,Junior
+"In short, I've solved some nasty Airflow issues around workflow orchestration and can walk teammates through the reasoning behind each fix. I've seen most of the usual failure modes.",Airflow,Advanced
+"I've been using jQuery professionally for a while. Everyday work on legacy page scripting is fine, but I'm still learning how the more advanced features fit together.",jQuery,Confirmed
+I can diagnose difficult Hibernate problems quickly and review other people's Java persistence layers with confidence.,Hibernate,Advanced
+"I'm learning React at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",React,Junior
+"To be fair, I know what Bash is for and can run the basics, but shell scripting in a team setting is unfamiliar territory.",Bash,Junior
+"After many years with Azure Functions, I can predict where serverless endpoints will break before a line is written, and I've defined our architecture guidelines.",Azure Functions,Expert
+I can diagnose difficult Express problems quickly and review other people's small web APIs with confidence. I rarely get stuck for long.,Express,Advanced
+"On my current team I take on regular Vue work involving front-end components. I'm trusted with normal tickets, though big design choices are made by others. I'm still learning the deeper parts.",Vue,Confirmed
+"My first production work with scikit-learn was on classical ML models. It went fine, and I'm now picking up similar tasks with only light supervision.",scikit-learn,Confirmed
+"Realistically, I've spent several years deep in Swift. I can untangle legacy iOS apps, plan a migration and deliver it without supervision. I'm happy to help teammates when they ask.",Swift,Advanced
+"Honestly, my Django work covers architecture, tuning and troubleshooting for database-backed web apps. I make the calls and take responsibility for the outcome. I've seen most of the usual failure modes.",Django,Advanced
+"Supabase is part of my day-to-day work now. I'm comfortable with routine hosted Postgres backends, but I'm still building depth.",Supabase,Confirmed
+"Honestly, I'm just picking up Tableau. I'd need a lot of help before I could contribute to a real codebase. I lean on the docs constantly.",Tableau,Junior
+"Honestly, my first production work with Gin was on Go HTTP services. It went fine, and I'm now picking up similar tasks with only light supervision.",Gin,Confirmed
+"My AWS Lambda expertise goes beyond day-to-day delivery: I audit other teams' serverless functions, define patterns and mentor tech leads on the subtle details.",AWS Lambda,Expert
+"To be fair, I've got a decent grasp of MySQL from a real project. I handle the usual relational databases tasks and learn something new from each code review.",MySQL,Confirmed
+"My Nuxt work covers architecture, tuning and troubleshooting for Vue-based sites. I make the calls and take responsibility for the outcome.",Nuxt,Advanced
+"I regularly take on the complex SwiftUI work on my team, including Apple app interfaces, and make technical decisions without needing sign-off.",SwiftUI,Advanced
+"I've gone well beyond the basics of Ansible: I handle server automation, performance problems and production failures independently. I'm happy to help teammates when they ask.",Ansible,Advanced
+"To be fair, I'm learning Google Cloud Run at the moment. I get the fundamentals, but I'd struggle to debug a problem on my own.",Google Cloud Run,Junior
+New to FastAPI here. I get stuck quickly when an example for Python APIs differs from what the tutorial showed. Still very early days.,FastAPI,Junior
