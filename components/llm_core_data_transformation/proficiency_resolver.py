@@ -29,11 +29,21 @@ class Sequence_Metrics():
     def __init__(self, conf_matrix):
         self.conf_matrix = conf_matrix
         return
-
+    def accuracy(self):
+        correct = 0
+        for i in range(0,4):
+            correct += self.conf_matrix[i,i]
+        return correct / self.conf_matrix.sum()
+    def recall(self, label: int = 0):
+        return
+    def precision(self, label: int = 0):
+        return
 def main():
     seq_eval = Sequence_Evaluator()
     seq_eval.load_stage1()
     conf_matrix = seq_eval.evaluate()
+    metrics = Sequence_Metrics(conf_matrix)
+    print(metrics.accuracy())
     print(conf_matrix)
     return
 if __name__ == '__main__':

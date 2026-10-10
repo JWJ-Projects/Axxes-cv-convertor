@@ -6,6 +6,7 @@ import json
 import torch
 def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", json_val_path: str = "./data/val.jsonl") -> str:
     json_objects = []
+    df = df.sample(random_state=42)
     for i, row in df.iterrows():
         json_object = {
             "input":row["description"],
