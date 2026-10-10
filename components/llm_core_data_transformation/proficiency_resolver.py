@@ -1,24 +1,40 @@
 from gliner2 import AutoExtractor
 import pandas as pd
-
-df = pd.read_csv("./data/developer_proficiency_descriptions.csv")
-def main():
-    model = AutoExtractor.from_pretrained("fastino/GLiNER2.5-Decide")
-    correct = 0
-    incorrect = 0
-    for i, row in df.iterrows():
-        proficiency_test = model.classify_text(
-            row["description"],
-            {"proficiency": [
-                "Junior", "Confirmed", "Advanced", "Expert"
-            ]}
-        )
-        if proficiency_test["proficiency"] == row["proficiency"]:
-            correct += 1
+import numpy as np
+class Sequence_Evaluator():
+    def __init__(self):
+        self.model = AutoExtractor.from_pretrained("fastino/GLiNER2.5-Decide")
+        self.test_data = pd.read_csv("./data/developer_proficiency_test.csv")
+        return
+    def load_stage1(self):
+        self.model.load_adapter(r"decide_proficiency_finetuned_stage1/best")
+        return
+    def evaluate(self, dataset=None):
+        if dataset is not None:
+            df = dataset
         else:
-            incorrect += 1
-    print(f"Correct: {correct}")
-    print(f"Incorrect: {incorrect}")
+            df = self.test_data
+        conf_matrix = np.zeros((4,4)) # Using a 4 by 4 confusion matrix to capture the results
+        labels = ["Junior", "Confirmed", "Advanced", "Expert"]
+        for i, row in df.iterrows():
+            proficiency_test = self.model.classify_text(
+                row["description"],
+                {"proficiency": [
+                    "Junior", "Confirmed", "Advanced", "Expert"
+                ]}
+            )
+            conf_matrix[labels.index(proficiency_test["proficiency"]), labels.index(row["proficiency"])] += 1
+        return conf_matrix
+class Sequence_Metrics():
+    def __init__(self, conf_matrix):
+        self.conf_matrix = conf_matrix
+        return
+
+def main():
+    seq_eval = Sequence_Evaluator()
+    seq_eval.load_stage1()
+    conf_matrix = seq_eval.evaluate()
+    print(conf_matrix)
     return
 if __name__ == '__main__':
     main()
