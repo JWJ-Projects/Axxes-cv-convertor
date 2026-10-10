@@ -35,15 +35,21 @@ class Sequence_Metrics():
             correct += self.conf_matrix[i,i]
         return correct / self.conf_matrix.sum()
     def recall(self, label: int = 0):
-        return
+        tp = self.conf_matrix[label, label]
+        y_label_true = self.conf_matrix[:, label].sum()
+        return tp / y_label_true
     def precision(self, label: int = 0):
-        return
+        tp = self.conf_matrix[label, label]
+        y_label_pred = self.conf_matrix[label, :].sum()
+        return tp / y_label_pred
 def main():
     seq_eval = Sequence_Evaluator()
     seq_eval.load_stage1()
     conf_matrix = seq_eval.evaluate()
     metrics = Sequence_Metrics(conf_matrix)
-    print(metrics.accuracy())
+    print(f"Accuracy: {metrics.accuracy()}")
+    print(f"Recall: {metrics.recall()}")
+    print(f"Precision: {metrics.precision()}")
     print(conf_matrix)
     return
 if __name__ == '__main__':

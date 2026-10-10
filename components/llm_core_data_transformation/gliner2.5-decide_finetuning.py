@@ -1,6 +1,5 @@
 from gliner2 import AutoExtractor
-from gliner2.training.data import InputExample
-from gliner2.training.trainer import ExtractorTrainer, ExtractorDataset, TrainingConfig
+from gliner2.training.trainer import ExtractorTrainer, TrainingConfig
 import pandas as pd
 import json
 import torch
