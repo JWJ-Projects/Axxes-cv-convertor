@@ -52,5 +52,7 @@ def main():
     print(f"Precision: {metrics.precision()}")
     print(conf_matrix)
     return
+def predict():
+    return
 if __name__ == '__main__':
     main()
