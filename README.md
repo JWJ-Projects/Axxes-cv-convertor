@@ -7,7 +7,8 @@ This is a custom pipeline that uses various NLP type models to parse, classify a
 ## Skills transformation
 
 The transformation component now produces renderer-ready skills JSON from extracted
-CV data, with optional interview evidence and opt-in GLiNER proficiency inference.
+CV data, with optional interview evidence, opt-in GLiNER proficiency inference,
+and evidence-grounded introduction generation using a local chat LLM.
 See [the component guide](components/llm_core_data_transformation/README.md) for
 commands, the output contract, review policies, and tests.
 
