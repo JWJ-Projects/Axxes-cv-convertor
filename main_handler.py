@@ -1,9 +1,8 @@
-from components.llm_core_data_transformation.proficiency_resolver import predict as predict_proficiency
+"""Current entry point: extracted RawCV JSON -> standardized skills JSON.
 
-def main():
-    # vlm_core_data_extraction entrypoint
-    proficiencies = predict_proficiency() 
-    return
+PDF extraction and full CV rendering remain separate pipeline stages.
+"""
+from components.llm_core_data_transformation.skills_handler import main
 
 if __name__ == '__main__':
     main()
