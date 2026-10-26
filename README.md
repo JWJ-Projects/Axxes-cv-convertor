@@ -12,6 +12,17 @@ and evidence-grounded introduction generation using a local chat LLM.
 See [the component guide](components/llm_core_data_transformation/README.md) for
 commands, the output contract, review policies, and tests.
 
+If for some reason cuda isn't available (GPU inference) check your cuda version with
+```bash
+nvidia-smi
+```
+Then uninstall `torch` and `torchvision`.
+Reinstall both from here https://pytorch.org/get-started/previous-versions/
+Example for cuda 13.0 and 13.1:
+```bash
+pip install torch==2.13.0 torchvision==0.28.0 --index-url https://download.pytorch.org/whl/cu130
+```
+Then it should be fixed.
 ## Infrastructure
 
 To be added...
