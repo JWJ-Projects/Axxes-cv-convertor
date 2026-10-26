@@ -3,32 +3,39 @@ from gliner2.training.trainer import ExtractorTrainer, TrainingConfig
 import pandas as pd
 import json
 import torch
-def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", json_val_path: str = "./data/val.jsonl") -> str:
-    json_objects = []
-    df = df.sample(random_state=42)
-    for i, row in df.iterrows():
-        json_object = {
-            "input":row["description"],
-            "output":{
-                "classifications": [{
-                    "task": "proficiency",
-                    "labels": ["Junior","Confirmed","Advanced", "Expert"],
-                    "true_label": [row["proficiency"]]
-                }]
-            }
-        }
-        json_objects.append(json.dumps(json_object) + '\n')
-    json_train = json_objects[:int(len(json_objects)*0.8)]
-    json_val = json_objects[int(0.8*len(json_objects)):]
-    with open(json_train_path, 'w') as json_train_file:
-        json_train_file.writelines(json_train)
-    with open(json_val_path, 'w') as json_val_file:
-        json_val_file.writelines(json_val)
+from sklearn.model_selection import train_test_split
+
+
+def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", json_val_path: str = "./data/val.jsonl") -> tuple[str, str]:
+    train_df, val_df = train_test_split(
+        df,
+        test_size=0.2,
+        random_state=42,
+        stratify=df["proficiency"],
+    )
+
+    for split_df, path in ((train_df, json_train_path), (val_df, json_val_path)):
+        with open(path, "w", encoding="utf-8") as file:
+            for _, row in split_df.iterrows():
+                record = {
+                    "input": row["description"],
+                    "output": {
+                        "classifications": [{
+                            "task": "proficiency",
+                            "labels": ["Junior", "Confirmed", "Advanced", "Expert"],
+                            "true_label": [row["proficiency"]],
+                        }]
+                    },
+                }
+                file.write(json.dumps(record, ensure_ascii=False) + "\n")
+
+    print("Training class counts:\n", train_df["proficiency"].value_counts())
+    print("Validation class counts:\n", val_df["proficiency"].value_counts())
     return json_train_path, json_val_path
 
 def main():
     print(torch.cuda.is_available())
-    df_train = pd.read_csv("./data/developer_proficiency_descriptions.csv")
+    df_train = pd.read_csv("./data/developer_proficiency_train_val.csv")
     json_train_path, json_val_path = df_to_json(df_train)
     model = AutoExtractor.from_pretrained(
         "fastino/GLiNER2.5-Decide"
