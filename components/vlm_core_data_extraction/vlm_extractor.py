@@ -6,17 +6,14 @@ import torch
 from pydantic import ValidationError
 from transformers import AutoProcessor, BitsAndBytesConfig, Qwen3VLForConditionalGeneration
 
-from helpers import render_pdf, validate_response
-from prompts import build_prompt
+from .helpers import render_pdf, validate_response
+from .prompts import build_prompt
+from .schemas import RawCV
 
 BASE_DIR = Path(__file__).resolve().parent
 MODEL_ID = "Qwen/Qwen3-VL-8B-Instruct"
-INPUT_PDF = "Joppe_Iemants_CV.pdf"
 
-PDF_PATH = BASE_DIR / "assets" / "original_cvs" / INPUT_PDF
 OUTPUT_BASE = BASE_DIR / "outputs"
-OUTPUT_PATH = OUTPUT_BASE / "raw_cv.json"
-RAW_RESPONSE_PATH = OUTPUT_BASE / "raw_response.txt"
 
 PDF_DPI = 120
 MAX_NEW_TOKENS = 4096
@@ -45,8 +42,6 @@ def load_model():
     return processor, model
 
 def extract_cv(processor, model, images):
-    print("Rendering PDF...")
-
     content = [ {"type": "image", "image": image} for image in images]
 
     content.append({
@@ -110,31 +105,29 @@ def extract_cv(processor, model, images):
         skip_special_tokens=True,
     )[0]
 
-def main():
-    images = render_pdf(PDF_PATH, PDF_DPI)
-
+def extract_data_from_cv(pdf_path: Path) -> RawCV:
+    images = render_pdf(pdf_path, PDF_DPI)
     processor, model = load_model()
-
     response = extract_cv(processor, model, images)
 
-    RAW_RESPONSE_PATH.write_text(
-        response,
+    OUTPUT_BASE.mkdir(parents=True, exist_ok=True)
+
+    raw_response_path = OUTPUT_BASE / f"{pdf_path.stem}_raw_response.txt"
+    output_data_path = OUTPUT_BASE / f"{pdf_path.stem}.json"
+
+    raw_response_path.write_text(response, encoding="utf-8")
+
+    extracted_cv_data = validate_response(response)
+
+    output_data_path.write_text(
+        extracted_cv_data.model_dump_json(indent=2),
         encoding="utf-8",
     )
+    return extracted_cv_data
 
-    try:
-        cv = validate_response(response)
-    except (json.JSONDecodeError, ValidationError) as error:
-        print("Extraction failed validation:")
-        print(error)
-        return
+def retrieve_extracted_cv_data(original_cv_path: Path) -> RawCV:
+    output_data_path = OUTPUT_BASE / f"{original_cv_path.stem}.json"
 
-    OUTPUT_PATH.write_text(
-        cv.model_dump_json(indent=2),
-        encoding="utf-8",
-    )
+    extracted_cv_json = output_data_path.read_text(encoding="utf-8")
 
-    print(f"Validated CV saved to: {OUTPUT_PATH}")
-
-if __name__ == "__main__":
-    main()
+    return RawCV.model_validate_json(extracted_cv_json)

@@ -1,12 +1,9 @@
-
 import json
-from pathlib import Path
-
 import pymupdf
 from PIL import Image
+from pathlib import Path
 
-from schemas import RawCV
-
+from .schemas import RawCV
 
 def render_pdf(pdf_path: Path, dpi: int = 120) -> list[Image.Image]:
     images = []
