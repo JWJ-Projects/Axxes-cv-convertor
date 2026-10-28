@@ -1,8 +1,9 @@
-# Skills and introduction transformation
+# Skills, projects and introduction transformation
 
 This stage accepts extracted `RawCV` data and an optional plain-text interview
-transcript. It returns validated `StandardizedSkills` JSON for the CV renderer.
-It does not render PDFs or modify the original extracted CV.
+transcript. It returns validated `StandardizedSkills` JSON containing renderer-ready
+skills and projects, with an optional introduction. It does not render PDFs or modify
+the original extracted CV.
 
 ## Run from the project root
 
@@ -30,11 +31,35 @@ standardized = transform_skills(raw_cv, interview_transcript=None)
 renderer_input = standardized.model_dump()
 ```
 
+Project-only programmatic use is also available through `transform_projects(raw_cv)`
+in `projects_handler.py`.
+
 ## Renderer contract (schema version 1.0)
 
 ```json
 {
   "schema_version": "1.0",
+  "projects": [
+    {
+      "title": "Payments platform",
+      "company": "Example Client",
+      "role": "Backend Developer",
+      "start_date": "01/2024",
+      "end_date": "Present",
+      "description": "Built and maintained payment services.",
+      "tasks": ["Implemented APIs"],
+      "skills": ["Python", "Docker"],
+      "source_pages": [2],
+      "evidence": [{
+        "source": "cv_project",
+        "reference": "projects/0",
+        "text": "{...}",
+        "source_pages": [2]
+      }],
+      "review_required": false,
+      "review_reasons": []
+    }
+  ],
   "skills": [
     {
       "name": "Python",
@@ -98,6 +123,14 @@ List order follows first appearance (CV skills, projects, then interview).
 - The training examples currently contain descriptions, not the target/evidence
   wrapper used at inference. Evaluate this formatting on held-out examples before
   deployment; retrain with skill-specific context if necessary.
+- Project transformation preserves title/company, role, dates, description, tasks,
+  skills and page references. It never invents missing roles, tasks or achievements.
+  Missing Axxes project content is represented as empty/null and flagged for review.
+- Explicit project skill names are canonicalized with the same conservative alias
+  policy as the top-level skills. Technologies found in project descriptions/tasks
+  may be added to that project's skills and are always flagged for verification.
+- Project `evidence` is an internal audit trail. The renderer should use the direct
+  project fields and omit evidence/review metadata from the published PDF.
 - Evidence contains personal data. Do not log or publish it unnecessarily;
   only include renderer-required fields in the final public CV.
 

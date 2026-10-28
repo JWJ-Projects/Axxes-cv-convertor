@@ -2,3 +2,4 @@
 components/llm_core_data_transformation/decide_proficiency_finetuned_stage1/*
 /models/
 /outputs/
+*__pycache__

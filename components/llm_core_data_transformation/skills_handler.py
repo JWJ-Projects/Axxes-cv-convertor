@@ -1,4 +1,4 @@
-"""Transform CV data into skills and an optional evidence-grounded introduction.
+"""Transform CV data into projects, skills and an optional grounded introduction.
 
 Run from the project root:
     python -m components.llm_core_data_transformation.skills_handler raw_cv.json skills.json
@@ -8,6 +8,7 @@ from pathlib import Path
 
 from components.vlm_core_data_extraction.schemas import RawCV
 from .proficiency_resolver import GLiNERProficiencyPredictor, ProficiencyPredictor, predict
+from .projects_handler import transform_projects
 from .schemas import StandardizedSkills
 from .skill_evidence import collect_skill_evidence
 from .skill_normalizer import SkillNormalizer
@@ -35,7 +36,11 @@ def transform_skills(
 ) -> StandardizedSkills:
     normalizer = SkillNormalizer() if taxonomy_path is None else SkillNormalizer(taxonomy_path)
     collected = collect_skill_evidence(raw_cv, interview_transcript, normalizer)
-    return StandardizedSkills(skills=[predict(skill, predictor) for skill in collected])
+    projects = transform_projects(raw_cv, taxonomy_path=taxonomy_path)
+    return StandardizedSkills(
+        skills=[predict(skill, predictor) for skill in collected],
+        projects=projects.projects,
+    )
 
 
 def main():
@@ -91,8 +96,9 @@ def main():
         result = StandardizedCV(**result.model_dump(), introduction=introduction)
     args.output.parent.mkdir(parents=True, exist_ok=True)
     args.output.write_text(result.model_dump_json(indent=2), encoding="utf-8")
-    print(f"Saved {len(result.skills)} skills; "
-          f"{sum(s.review_required for s in result.skills)} require review: {args.output}")
+    print(f"Saved {len(result.skills)} skills and {len(result.projects)} projects; "
+          f"{sum(s.review_required for s in result.skills)} skills and "
+          f"{sum(p.review_required for p in result.projects)} projects require review: {args.output}")
     if args.introduction_model:
         print("Introduction included; factual review required before publication.")
         if args.test_introduction:

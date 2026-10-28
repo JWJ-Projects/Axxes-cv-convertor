@@ -1,4 +1,4 @@
-"""Current entry point: RawCV JSON -> skills and optional local-LLM introduction.
+"""Current entry point: RawCV JSON -> projects, skills and optional introduction.
 
 PDF extraction and full CV rendering remain separate pipeline stages.
 """

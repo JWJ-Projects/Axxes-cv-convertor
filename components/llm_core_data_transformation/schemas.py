@@ -50,6 +50,38 @@ class StandardizedSkill(ContractModel):
         return self
 
 
-class StandardizedSkills(ContractModel):
+class ProjectEvidence(ContractModel):
+    source: Literal["cv_project"]
+    reference: str
+    text: str
+    source_pages: list[int] = Field(default_factory=list)
+
+
+class StandardizedProject(ContractModel):
+    title: str | None = None
+    company: str | None = None
+    role: str | None = None
+    start_date: str | None = None
+    end_date: str | None = None
+    description: str | None = None
+    tasks: list[str] = Field(default_factory=list)
+    skills: list[str] = Field(default_factory=list)
+    source_pages: list[int] = Field(default_factory=list)
+    evidence: list[ProjectEvidence] = Field(default_factory=list)
+    review_required: bool = False
+    review_reasons: list[str] = Field(default_factory=list)
+
+    @model_validator(mode="after")
+    def require_review(self):
+        if self.review_reasons and not self.review_required:
+            raise ValueError("Flagged projects require review")
+        return self
+
+
+class StandardizedProjects(ContractModel):
     schema_version: Literal["1.0"] = "1.0"
+    projects: list[StandardizedProject] = Field(default_factory=list)
+
+
+class StandardizedSkills(StandardizedProjects):
     skills: list[StandardizedSkill] = Field(default_factory=list)
