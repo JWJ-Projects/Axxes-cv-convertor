@@ -7,6 +7,9 @@ TAXONOMY_PATH = Path(__file__).resolve().parent / "data" / "taxonomy.csv"
 # Deliberately reviewed aliases only. The CSV's consolidated-terms column also
 # contains related products and must not be used blindly as an alias lookup.
 SAFE_ALIASES = {"ts": "TypeScript", "golang": "Go", "js": "JavaScript"}
+# The renderer contract has one category per skill. Resolve reviewed taxonomy
+# duplicates explicitly instead of making CSV row order determine the result.
+CATEGORY_OVERRIDES = {"mulesoft": "ERP/CRM & Integration"}
 
 
 def key(name: str) -> str:
@@ -20,7 +23,24 @@ class SkillNormalizer:
             for row in csv.DictReader(file):
                 name = row["Skill"].strip()
                 if name:
-                    self.entries.setdefault(key(name), (name, row["Category"].strip() or None))
+                    normalized = key(name)
+                    category = row["Category"].strip() or None
+                    existing = self.entries.get(normalized)
+                    if existing is None:
+                        self.entries[normalized] = (name, category)
+                    else:
+                        existing_name, existing_category = existing
+                        if existing_category and category and existing_category != category:
+                            override = CATEGORY_OVERRIDES.get(normalized)
+                            if override not in (existing_category, category):
+                                raise ValueError(
+                                    f"Conflicting taxonomy categories for {name!r}: "
+                                    f"{existing_category!r} and {category!r}"
+                                )
+                            category = override
+                        else:
+                            category = existing_category or category
+                        self.entries[normalized] = (existing_name, category)
         self.aliases = {
             alias: canonical for alias, canonical in SAFE_ALIASES.items()
             if key(canonical) in self.entries

@@ -53,6 +53,15 @@ class ProjectsTransformationTests(unittest.TestCase):
         self.assertTrue(project.review_required)
         self.assertIn("Missing project role", project.review_reasons)
 
+    def test_blank_tasks_are_cleaned_and_flagged_as_missing(self):
+        project = transform_projects(RawCV(projects=[Project(
+            title="Project", role="Developer", description="Built a service.",
+            tasks=["   ", "\t"], skills=["Python"],
+        )])).projects[0]
+        self.assertEqual(project.tasks, [])
+        self.assertTrue(project.review_required)
+        self.assertIn("Missing project tasks", project.review_reasons)
+
     def test_projects_are_in_combined_renderer_output(self):
         result = transform_skills(RawCV(projects=[Project(title="Project")]))
         self.assertEqual(result.projects[0].title, "Project")

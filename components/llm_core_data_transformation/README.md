@@ -120,9 +120,9 @@ List order follows first appearance (CV skills, projects, then interview).
   excluded using a five-word minimum heuristic. Longer technology lists and
   negated/hypothetical mentions may still pass: every model prediction requires
   review. No uncalibrated confidence scores are exposed.
-- The training examples currently contain descriptions, not the target/evidence
-  wrapper used at inference. Evaluate this formatting on held-out examples before
-  deployment; retrain with skill-specific context if necessary.
+- Training, held-out evaluation and production inference use the same
+  `Target technology` / `Evidence` wrapper. Adapters trained before this alignment
+  must be retrained and evaluated before deployment.
 - Project transformation preserves title/company, role, dates, description, tasks,
   skills and page references. It never invents missing roles, tasks or achievements.
   Missing Axxes project content is represented as empty/null and flagged for review.

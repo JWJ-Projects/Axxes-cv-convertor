@@ -2,7 +2,10 @@
 from pathlib import Path
 from typing import Callable
 
+from .proficiency_format import format_proficiency_input
 from .schemas import LABELS, StandardizedProficiency, StandardizedSkill
+
+COMPONENT_DIR = Path(__file__).resolve().parent
 
 # A predictor receives a canonical skill name and only its collected evidence.
 ProficiencyPredictor = Callable[[str, list[str]], str | None]
@@ -12,10 +15,10 @@ class Sequence_Evaluator():
         import pandas as pd
 
         self.model = AutoExtractor.from_pretrained("fastino/GLiNER2.5-Decide")
-        self.test_data = pd.read_csv("./data/developer_proficiency_test.csv")
+        self.test_data = pd.read_csv(COMPONENT_DIR / "data" / "developer_proficiency_test.csv")
         return
     def load_stage1(self):
-        self.model.load_adapter(r"decide_proficiency_finetuned_stage1/best")
+        self.model.load_adapter(str(COMPONENT_DIR / "decide_proficiency_finetuned_stage1" / "best"))
         return
     def evaluate(self, dataset=None):
         import numpy as np
@@ -28,7 +31,9 @@ class Sequence_Evaluator():
         labels = ["Junior", "Confirmed", "Advanced", "Expert"]
         for i, row in df.iterrows():
             proficiency_test = self.model.classify_text(
-                row["description"],
+                format_proficiency_input(
+                    row["language/framework/tool"], [row["description"]],
+                ),
                 {"proficiency": [
                     "Junior", "Confirmed", "Advanced", "Expert"
                 ]}
@@ -133,7 +138,7 @@ class GLiNERProficiencyPredictor:
             model = AutoExtractor.from_pretrained("fastino/GLiNER2.5-Decide")
             model.load_adapter(str(self.adapter_path))
             self.model = model
-        text = f"Target technology: {skill_name}\nEvidence:\n" + "\n".join(evidence)
+        text = format_proficiency_input(skill_name, evidence)
         response = self.model.classify_text(text, {"proficiency": list(LABELS)})
         return response.get("proficiency")
 if __name__ == '__main__':

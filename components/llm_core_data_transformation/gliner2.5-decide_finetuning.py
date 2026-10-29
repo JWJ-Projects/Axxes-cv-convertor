@@ -3,10 +3,23 @@ from gliner2.training.trainer import ExtractorTrainer, TrainingConfig
 import pandas as pd
 import json
 import torch
+from pathlib import Path
 from sklearn.model_selection import train_test_split
 
+try:
+    from components.llm_core_data_transformation.proficiency_format import format_proficiency_input
+except ModuleNotFoundError:  # Supports direct execution from this component directory.
+    from proficiency_format import format_proficiency_input
 
-def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", json_val_path: str = "./data/val.jsonl") -> tuple[str, str]:
+COMPONENT_DIR = Path(__file__).resolve().parent
+DATA_DIR = COMPONENT_DIR / "data"
+
+
+def df_to_json(
+    df: pd.DataFrame,
+    json_train_path: str | Path = DATA_DIR / "train.jsonl",
+    json_val_path: str | Path = DATA_DIR / "val.jsonl",
+) -> tuple[str, str]:
     train_df, val_df = train_test_split(
         df,
         test_size=0.2,
@@ -15,10 +28,14 @@ def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", js
     )
 
     for split_df, path in ((train_df, json_train_path), (val_df, json_val_path)):
-        with open(path, "w", encoding="utf-8") as file:
+        path = Path(path)
+        path.parent.mkdir(parents=True, exist_ok=True)
+        with path.open("w", encoding="utf-8") as file:
             for _, row in split_df.iterrows():
                 record = {
-                    "input": row["description"],
+                    "input": format_proficiency_input(
+                        row["language/framework/tool"], [row["description"]],
+                    ),
                     "output": {
                         "classifications": [{
                             "task": "proficiency",
@@ -31,17 +48,17 @@ def df_to_json(df: pd.DataFrame, json_train_path: str = "./data/train.jsonl", js
 
     print("Training class counts:\n", train_df["proficiency"].value_counts())
     print("Validation class counts:\n", val_df["proficiency"].value_counts())
-    return json_train_path, json_val_path
+    return str(json_train_path), str(json_val_path)
 
 def main():
     print(torch.cuda.is_available())
-    df_train = pd.read_csv("./data/developer_proficiency_train_val.csv")
+    df_train = pd.read_csv(DATA_DIR / "developer_proficiency_train_val.csv")
     json_train_path, json_val_path = df_to_json(df_train)
     model = AutoExtractor.from_pretrained(
         "fastino/GLiNER2.5-Decide"
     )
     config = TrainingConfig(
-        output_dir="./decide_proficiency_finetuned_stage1",
+        output_dir=str(COMPONENT_DIR / "decide_proficiency_finetuned_stage1"),
         num_epochs=10,
         batch_size=16,
         eval_batch_size=16,

@@ -1,10 +1,17 @@
 """Offline tests: no torch, model downloads, training, or source-data changes."""
+from pathlib import Path
+import tempfile
 import unittest
+from unittest.mock import MagicMock
 
 from pydantic import ValidationError
 
 from components.vlm_core_data_extraction.schemas import RawCV, Skill, Proficiency, Project
+from components.llm_core_data_transformation.proficiency_resolver import (
+    GLiNERProficiencyPredictor, Sequence_Evaluator, format_proficiency_input,
+)
 from components.llm_core_data_transformation.schemas import StandardizedSkills, StandardizedProficiency
+from components.llm_core_data_transformation.skill_normalizer import SkillNormalizer
 from components.llm_core_data_transformation.skills_handler import transform_skills
 
 
@@ -44,6 +51,19 @@ class SkillsTransformationTests(unittest.TestCase):
     def test_related_technology_is_not_an_alias(self):
         result = self.transform(Skill(name="Spring MVC"), Skill(name="Spring Boot"))
         self.assertEqual(len(result.skills), 2)
+
+    def test_reviewed_duplicate_taxonomy_category_is_deterministic(self):
+        result = self.transform(Skill(name="Mulesoft"))
+        self.assertEqual(result.skills[0].category, "ERP/CRM & Integration")
+
+    def test_unreviewed_conflicting_taxonomy_categories_are_rejected(self):
+        with tempfile.TemporaryDirectory() as tmp:
+            taxonomy = Path(tmp) / "taxonomy.csv"
+            taxonomy.write_text(
+                "Category,Skill\nFirst,Duplicate\nSecond,Duplicate\n", encoding="utf-8",
+            )
+            with self.assertRaisesRegex(ValueError, "Conflicting taxonomy categories"):
+                SkillNormalizer(taxonomy)
 
     def test_conflicting_explicit_values(self):
         result = self.transform(*[
@@ -101,6 +121,35 @@ class SkillsTransformationTests(unittest.TestCase):
             predictor=lambda *_: "Master",
         )
         self.assertIsNone(result.skills[0].proficiency)
+
+    def test_production_predictor_uses_shared_training_format(self):
+        predictor = GLiNERProficiencyPredictor("unused")
+        predictor.model = MagicMock()
+        predictor.model.classify_text.return_value = {"proficiency": "Advanced"}
+        evidence = ["I maintain services independently.", "I review complex changes."]
+        self.assertEqual(predictor("Python", evidence), "Advanced")
+        predictor.model.classify_text.assert_called_once_with(
+            format_proficiency_input("Python", evidence),
+            {"proficiency": ["Junior", "Confirmed", "Advanced", "Expert"]},
+        )
+
+    def test_evaluator_uses_production_input_format(self):
+        import pandas as pd
+
+        evaluator = Sequence_Evaluator.__new__(Sequence_Evaluator)
+        evaluator.model = MagicMock()
+        evaluator.model.classify_text.return_value = {"proficiency": "Junior"}
+        dataset = pd.DataFrame([{
+            "description": "I am learning the basics.",
+            "language/framework/tool": "Python",
+            "proficiency": "Junior",
+        }])
+        matrix = evaluator.evaluate(dataset)
+        self.assertEqual(matrix[0, 0], 1)
+        evaluator.model.classify_text.assert_called_once_with(
+            format_proficiency_input("Python", ["I am learning the basics."]),
+            {"proficiency": ["Junior", "Confirmed", "Advanced", "Expert"]},
+        )
 
     def test_schema_and_reproducibility(self):
         raw = RawCV(skills=[Skill(name="Python")])

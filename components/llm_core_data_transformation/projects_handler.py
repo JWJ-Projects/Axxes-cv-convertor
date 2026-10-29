@@ -70,6 +70,7 @@ def transform_projects(
     projects = []
     for index, project in enumerate(raw_cv.projects):
         skills, inferred_skills = _project_skills(project, raw_cv, normalizer)
+        tasks = _unique(project.tasks)
         reasons = []
         if not (_clean(project.title) or _clean(project.company)):
             reasons.append("Missing project title/company heading")
@@ -77,7 +78,7 @@ def transform_projects(
             reasons.append("Missing project role")
         if not _clean(project.description):
             reasons.append("Missing project description")
-        if not project.tasks:
+        if not tasks:
             reasons.append("Missing project tasks")
         if not skills:
             reasons.append("Missing project skills")
@@ -101,7 +102,7 @@ def transform_projects(
             start_date=_clean(project.start_date),
             end_date=_clean(project.end_date),
             description=_clean(project.description),
-            tasks=_unique(project.tasks),
+            tasks=tasks,
             skills=skills,
             source_pages=project.source_pages,
             evidence=[evidence],
