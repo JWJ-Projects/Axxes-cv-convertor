@@ -1,5 +1,5 @@
 import json
-from schemas import RawCV
+from .schemas import RawCV
 
 EXTRACTION_PROMPT = """
 You are a visual document information extraction system.
