@@ -4,14 +4,13 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-torch = "*"
-torchvision = "*"
 matplotlib = "*"
 einops = "*"
 addict = "*"
 easydict = "*"
 psutil = "*"
 pandas = "*"
+scikit-learn = "*"
 numpy = "*"
 gliner2 = "*"
 peft = "*"

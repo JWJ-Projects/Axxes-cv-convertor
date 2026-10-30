@@ -1,0 +1,322 @@
+{
+  "schema_version": "1.0",
+  "skills": [
+    {
+      "name": "Python",
+      "category": "Programming Languages",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/0",
+          "text": "Python",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "C#",
+      "category": "Programming Languages",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/1",
+          "text": "C#",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Java",
+      "category": "Programming Languages",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/2",
+          "text": "Java",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "JavaScript",
+      "category": "Programming Languages",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/3",
+          "text": "JavaScript",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "SQL",
+      "category": "Databases",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/4",
+          "text": "SQL",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Machine Learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/5",
+          "text": "Machine Learning",
+          "source_pages": [],
+          "original_proficiency": null
+        },
+        {
+          "source": "cv_project",
+          "reference": "projects/0",
+          "text": "Developed a deep learning model to predict next-day stock price movement using financial data and news sentiment features. Currently working in a team to deploy and manage the model using Azure Machine Learning.",
+          "source_pages": [
+            1
+          ],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Deep Learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/6",
+          "text": "Deep Learning",
+          "source_pages": [],
+          "original_proficiency": null
+        },
+        {
+          "source": "cv_project",
+          "reference": "projects/0",
+          "text": "Developed a deep learning model to predict next-day stock price movement using financial data and news sentiment features. Currently working in a team to deploy and manage the model using Azure Machine Learning.",
+          "source_pages": [
+            1
+          ],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Reinforcement learning",
+      "category": "AI & Cloud",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/7",
+          "text": "Reinforcement learning",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Azure Machine Learning",
+      "category": "Cloud Platforms",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/8",
+          "text": "Azure Machine Learning",
+          "source_pages": [],
+          "original_proficiency": null
+        },
+        {
+          "source": "cv_project",
+          "reference": "projects/0",
+          "text": "Developed a deep learning model to predict next-day stock price movement using financial data and news sentiment features. Currently working in a team to deploy and manage the model using Azure Machine Learning.",
+          "source_pages": [
+            1
+          ],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Docker",
+      "category": "DevOps & Containerization",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/9",
+          "text": "Docker",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Git & GitHub",
+      "category": "Other",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/10",
+          "text": "Git & GitHub",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Databases",
+      "category": "Other",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/11",
+          "text": "Databases",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Dutch - Native",
+      "category": "Other",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/12",
+          "text": "Dutch - Native",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "English - Professional",
+      "category": "Other",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/13",
+          "text": "English - Professional",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "French - Basic",
+      "category": "Other",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_skill",
+          "reference": "skills/14",
+          "text": "French - Basic",
+          "source_pages": [],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    },
+    {
+      "name": "Azure",
+      "category": "Cloud Platforms",
+      "proficiency": null,
+      "evidence": [
+        {
+          "source": "cv_project",
+          "reference": "projects/0",
+          "text": "Developed a deep learning model to predict next-day stock price movement using financial data and news sentiment features. Currently working in a team to deploy and manage the model using Azure Machine Learning.",
+          "source_pages": [
+            1
+          ],
+          "original_proficiency": null
+        }
+      ],
+      "review_required": true,
+      "review_reasons": [
+        "Insufficient evidence for a proficiency rating"
+      ]
+    }
+  ]
+}
